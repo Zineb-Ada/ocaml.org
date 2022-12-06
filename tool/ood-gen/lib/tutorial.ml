@@ -59,9 +59,11 @@ let doc_with_ids doc =
             | (_, slug) :: _ -> slug (* Discard extra ids *)
           in
           let link : _ Omd.link =
-            { label = inline; destination = "#" ^ id; title = None }
+            { label = Text([], ""); destination = "#" ^ id; title = None }
           in
-          Heading (("id", id) :: attr, level, Link (attr, link))
+          let concat = Concat ([], [(Link (("class", "anchor") :: attr, link)); inline])
+          in
+          Heading (("id", id) :: attr, level, concat)
       | el -> el)
     doc
 

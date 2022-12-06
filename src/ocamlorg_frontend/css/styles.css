@@ -118,7 +118,37 @@ body {
   @apply no-underline;
 }
 
+.prose :is(h1, h2, h3, h4, h5, h6) a.anchor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+  opacity: 0;
+  text-decoration: none;
+  color: rgb(156 163 175);
+  box-shadow: none;
+}
+
+.prose :is(h1, h2, h3, h4, h5, h6) a.anchor::after {
+  content: "#";
+  margin-left: -1.2em;
+  padding: 0.4em;
+}
+
+.prose *:hover > a.anchor {
+  opacity: 1;
+}
+
+.prose *:hover > a.anchor:hover {
+  color: rgb(75 85 99);
+}
+
+
 .prose :is(h1:target, h2:target, h3:target, h4:target, h5:target, h6:target) {
+  background: rgb(255, 243, 173);
+}
+/* .prose :is(h1:target, h2:target, h3:target, h4:target, h5:target, h6:target) {
   position:relative;
   background:rgb(255, 243, 173);
   padding: 0.2rem 0rem;
@@ -133,7 +163,7 @@ body {
   padding: 0.39em;
   margin-top: -.37em;
   font-weight: 500;
-}
+} */
 
 .prose a:hover {
   @apply underline;
