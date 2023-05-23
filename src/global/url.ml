@@ -52,6 +52,7 @@ let workshops = "/workshops"
 let workshop v = "/workshops/" ^ v
 let blog = "/blog"
 let blog_post v = "/blog/" ^ v
+let blogs_search = "/blog/search"
 let news = "/news"
 let news_post v = "/news/" ^ v
 let jobs = "/jobs"
