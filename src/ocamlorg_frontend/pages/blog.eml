@@ -8,6 +8,18 @@ Layout.render
     <div class="container-fluid wide">
         <h1 class="sr-only">OCaml Blog</h1>
 
+        <form
+        action="/blogs/search" method="GET" class="flex flex-col justify-center">
+        <div class="packages__search relative inline-flex mx-auto items-center justify-center">
+          <input type="search" name="q" class="packages__search__input focus:border-gray-800 text-gray-800 border-primary-600 h-10 rounded-l-md appearance-none px-4 py-1 md:w-96 lg:w-[32rem] xl:w-[32rem]"
+            autocomplete="off"
+            placeholder="Search blog post">
+          <button aria-label="search" class="h-10 rounded-r-md bg-primary-600 text-white flex items-center justify-center px-4">
+            <%s! Icons.magnifying_glass "w-6 h-6 text-white" %>
+          </button>
+        </div>
+      </form>
+
         <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
             <div class="col-span-2">
                 <h2 class="text-lg mt-0 font-semibold border-b border-current text-primary-600 pb-3">OCaml Community Blog</h2>

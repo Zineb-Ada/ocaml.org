@@ -187,6 +187,18 @@ let blog_post req =
   let</>? blog = Data.Planet.get_by_slug slug in
   Dream.html (Ocamlorg_frontend.blog_post blog)
 
+let blogs_search t req =
+  match Dream.query req "q" with
+  | Some search ->
+      let blogs =
+        Ocamlorg_package.search ~sort_by_popularity:true t search
+      in
+      let total = List.length blogs in
+      let results = List.map blogs in
+      let search = Dream.from_percent_encoded search in
+      Dream.html (Ocamlorg_frontend.blogs_search ~total ~search results)
+  | None -> Dream.redirect req Url.blog
+
 let news req =
   let page, number_of_pages, current_items =
     paginate ~req ~n:10 Data.News.all

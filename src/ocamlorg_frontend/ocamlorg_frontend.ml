@@ -9,6 +9,7 @@ let academic_users = Academic_users.render
 let best_practices = Best_practices.render
 let blog = Blog.render
 let blog_post = Blog_post.render
+let blogs_search = Blogs_search.render
 let changelog = Changelog.render
 let books = Books.render
 let community = Community.render
