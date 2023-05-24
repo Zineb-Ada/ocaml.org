@@ -9,6 +9,7 @@ type metadata = {
   preview_image : string option;
   featured : bool option;
   authors : string list option;
+  tags : string list option;
 }
 [@@deriving yaml]
 
@@ -85,6 +86,7 @@ let scrape_post ~source_name (post : River.post) =
             description;
             featured = None;
             authors = Some [ author ];
+            tags = Some [ "source_name" ];
           }
         in
         let s = Format.asprintf "%a\n%s\n" pp_meta metadata content in
@@ -138,6 +140,7 @@ type t = {
   url : string option;
   description : string option;
   authors : string list option;
+  tags : string list option;
   date : string;
   preview_image : string option;
   featured : bool;
@@ -176,6 +179,7 @@ type t =
   ; preview_image : string option
   ; featured : bool
   ; body_html : string
+  ; tags : string list option
   }
   
 let all = %a
