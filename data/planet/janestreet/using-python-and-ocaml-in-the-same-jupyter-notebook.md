@@ -5,6 +5,10 @@ url: https://blog.janestreet.com/using-python-and-ocaml-in-the-same-jupyter-note
 date: 2019-12-16T00:00:00-00:00
 preview_image: https://blog.janestreet.com/using-python-and-ocaml-in-the-same-jupyter-notebook/python-ocaml.jpg
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <div style="width: 75%; margin: auto; text-align: center; font-style: italic; font-size: 75%">

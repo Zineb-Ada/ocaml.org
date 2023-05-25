@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2020-09-01-introducing-irmin-pack
 date: 2020-09-01T00:00:00-00:00
 preview_image: https://tarides.com/static/5dbd4ce5058bf6225c3a8ac98e4dda54/ed842/drawers.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p><code>irmin-pack</code> is an Irmin <a href="https://irmin.org/tutorial/backend">storage backend</a>
@@ -88,7 +92,7 @@ the hash. We will go into the details of this later in this post.</p>
 </li>
 <li>
 <p>While hashes are being used as simple objects, their size is not negligible.
-The default hashing function in Irmin is BLAKE2B, which provides 64-byte
+The default hashing function in Irmin is BLAKE2B, which provides 32-byte
 digests.</p>
 </li>
 </ul>
@@ -144,8 +148,8 @@ part of <code>irmin-pack</code>.</p>
 <div class="gatsby-highlight" data-language="ocaml"><pre class="language-ocaml"><code class="language-ocaml"><span class="token keyword">type</span> t
 <span class="token keyword">val</span> v <span class="token punctuation">:</span> readonly<span class="token punctuation">:</span>bool <span class="token operator">-&gt;</span> path<span class="token punctuation">:</span>string <span class="token operator">-&gt;</span> t
 
-<span class="token keyword">val</span> find    <span class="token punctuation">:</span> t <span class="token operator">-&gt;</span> <span class="token module variable">Key</span><span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> <span class="token module variable">Value</span><span class="token punctuation">.</span>t
-<span class="token keyword">val</span> replace <span class="token punctuation">:</span> t <span class="token operator">-&gt;</span> <span class="token module variable">Key</span><span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> <span class="token module variable">Value</span><span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> unit
+<span class="token keyword">val</span> find    <span class="token punctuation">:</span> t <span class="token operator">-&gt;</span> Key<span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> Value<span class="token punctuation">.</span>t
+<span class="token keyword">val</span> replace <span class="token punctuation">:</span> t <span class="token operator">-&gt;</span> Key<span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> Value<span class="token punctuation">.</span>t <span class="token operator">-&gt;</span> unit
 <span class="token comment">(* ... *)</span></code></pre></div>
 <p>It has lead most of our efforts in the development of <code>irmin-pack</code> and is now
 available as a separate library, wisely named <code>index,</code> that you can checkout on

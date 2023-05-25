@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/trivial-meta-programming-with-cinaps/
 date: 2017-03-20T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>From now and then, I found myself having to write some mechanical and repetitive

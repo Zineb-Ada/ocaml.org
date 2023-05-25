@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2022-12-22-ocaml-5-multicore-testing-tools
 date: 2022-12-22T00:00:00-00:00
 preview_image: https://tarides.com/static/982dc8891224a366db621bea7a32ad66/309a6/MC_testing.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>The new version of OCaml 5 is here! It brings the ability to program multicore applications and to maximise our usage of all the CPU cores without a global lock getting in the way of performance. What's most exciting to me though is that we have a whole new way of writing... bugs!</p>

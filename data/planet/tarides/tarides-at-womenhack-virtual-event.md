@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2021-07-20-tarides-at-womenhack-virtual-event
 date: 2021-07-20T00:00:00-00:00
 preview_image: https://tarides.com/static/d57d3ef7c12240d9300498f6be74d3a9/0132d/ColorfulCode.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>Tarides takes great pride in a diverse workforce and strives to continue

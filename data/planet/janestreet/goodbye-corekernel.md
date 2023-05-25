@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/goodbye-Core_kernel/
 date: 2021-08-26T00:00:00-00:00
 preview_image: https://blog.janestreet.com/goodbye-Core_kernel/./core_kernel.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>We recently restructured our standard libraries at Jane Street in a

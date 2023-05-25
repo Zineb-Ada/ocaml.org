@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2022-12-14-hillingar-mirageos-unikernels-on-nixos
 date: 2022-12-14T00:00:00-00:00
 preview_image: https://tarides.com/static/ba47ed1e2b7a5e9dc869229c7e9e073f/d6138/hillingar.png
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 
@@ -117,10 +121,10 @@ $ nix show-derivation /nix/store/5d4il3h1q4cw08l6fnk4j04a19dsv71k-hello.drv
   }
 }</code></pre></div>
 <p>And build the store derivation:</p>
-<div class="gatsby-highlight" data-language="sh"><pre class="language-sh"><code class="language-sh">$ nix-store --realise /nix/store/5d4il3h1q4cw08l6fnk4j04a19dsv71k-hello.drv
+<div class="gatsby-highlight" data-language="sh"><pre class="language-sh"><code class="language-sh">$ nix-store <span class="token parameter variable">--realise</span> /nix/store/5d4il3h1q4cw08l6fnk4j04a19dsv71k-hello.drv
 /nix/store/4v1dx6qaamakjy5jzii6lcmfiks57mhl-hello
-$ cat /nix/store/4v1dx6qaamakjy5jzii6lcmfiks57mhl-hello
-Hello, World!</code></pre></div>
+$ <span class="token function">cat</span> /nix/store/4v1dx6qaamakjy5jzii6lcmfiks57mhl-hello
+Hello, World<span class="token operator">!</span></code></pre></div>
 <p>Most Nix tooling does these two steps together:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">nix-build default.nix
 this derivation will be built:
@@ -272,9 +276,9 @@ In order to provide a better user experience, we also created the Hillinar Nix f
 This wraps the Mirage tooling and <code>opam-nix</code> function calls so that a simple high-level flake can be dropped into a Mirage project to support building it with Nix.
 To add Nix build support to a unikernel, simply:</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># create a flake from hillingar's default template</span>
-$ nix flake new <span class="token builtin class-name">.</span> -t github:/RyanGibb/hillingar
+$ nix flake new <span class="token builtin class-name">.</span> <span class="token parameter variable">-t</span> github:/RyanGibb/hillingar
 <span class="token comment"># substitute the name of the unikernel you're building</span>
-$ <span class="token function">sed</span> -i <span class="token string">'s/throw &quot;Put the unikernel name here&quot;/&quot;&lt;unikernel-name&gt;&quot;/g'</span> flake.nix
+$ <span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">'s/throw &quot;Put the unikernel name here&quot;/&quot;&lt;unikernel-name&gt;&quot;/g'</span> flake.nix
 <span class="token comment"># build the unikernel with Nix for a particular target</span>
 $ nix build <span class="token builtin class-name">.</span><span class="token comment">#&lt;target&gt;</span></code></pre></div>
 <p>For example, see the flake for building the Mirage website as a unikernel with Nix: <a href="https://github.com/RyanGibb/mirage-www/blob/master/flake.nix">github.com/RyanGibb/mirage-www/blob/master/flake.nix</a>.</p>

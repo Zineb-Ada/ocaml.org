@@ -6,6 +6,10 @@ url: https://blog.janestreet.com/13-virtues/
 date: 2015-01-02T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>Very early on in his life, while on lengthy voyage from London to Philadelphia,

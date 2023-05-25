@@ -6,6 +6,10 @@ url: https://tezos.foundation
 date: 2018-05-23T00:00:00-00:00
 preview_image: https://tezos.foundation/wp-content/uploads/2020/04/blue-bg.png
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>We are excited to announce that the <a href="https://tezos.foundation">Tezos Foundation</a>

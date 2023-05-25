@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2019-11-21-irmin-v2
 date: 2019-11-21T00:00:00-00:00
 preview_image: https://tarides.com/static/d702f060cc02fbcb7329077e2d71741d/0d665/irmin2.png
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>We are pleased to announce <a href="https://github.com/mirage/irmin/releases">Irmin

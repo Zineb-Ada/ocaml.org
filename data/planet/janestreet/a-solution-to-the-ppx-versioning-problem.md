@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/an-solution-to-the-ppx-versioning-problem/
 date: 2016-11-08T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>Ppx is a preprocessing system for OCaml where one maps over the OCaml abstract

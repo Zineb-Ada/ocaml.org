@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/do-you-love-dev-tools-come-work-at-jane-street/
 date: 2016-08-30T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>In the last few years, we&rsquo;ve spent more and more effort working on developer

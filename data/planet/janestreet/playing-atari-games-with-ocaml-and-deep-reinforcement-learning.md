@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/playing-atari-games-with-ocaml-and-deep-rl/
 date: 2019-02-02T00:00:00-00:00
 preview_image: https://blog.janestreet.com/playing-atari-games-with-ocaml-and-deep-rl/atari.jpg
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>In a <a href="https://blog.janestreet.com/deep-learning-experiments-in-ocaml/">previous blog post</a>

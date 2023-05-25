@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2023-03-22-compiler-hacking-in-cambridge-is-back
 date: 2023-03-22T00:00:00-00:00
 preview_image: https://tarides.com/static/94b1bae0c0d362e983f366e92c6ca885/d6c95/Compiler_hacking.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>What&rsquo;s the best way to spend a Friday evening? We think most people would agree that hacking on OCaml is pretty much at the top of that list (although full disclosure, our sample size for this data could be larger).</p>

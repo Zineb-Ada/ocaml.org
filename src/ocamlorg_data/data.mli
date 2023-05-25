@@ -267,6 +267,7 @@ module Planet : sig
     preview_image : string option;
     featured : bool;
     body_html : string;
+    tags : string list;
   }
 
   val featured : t list

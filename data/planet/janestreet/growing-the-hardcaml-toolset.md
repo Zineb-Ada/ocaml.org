@@ -6,6 +6,10 @@ url: https://blog.janestreet.com/growing-the-hardcaml-toolset-index/
 date: 2020-12-01T00:00:00-00:00
 preview_image: https://blog.janestreet.com/growing-the-hardcaml-toolset-index/Hardcaml_blog_image_scaled.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>I am pleased to announce that we have recently released a slew of new

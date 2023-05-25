@@ -8,6 +8,8 @@ preview_image: https://blog.janestreet.com/building-reproducible-python-environm
 featured:
 authors:
 - janestreet
+tags:
+- janestreet
 ---
 
 <p>Our traders and researchers love Python for its agility and for its huge

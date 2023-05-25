@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2021-08-26-benchmarking-ocaml-projects-with-curren
 date: 2021-08-26T00:00:00-00:00
 preview_image: https://tarides.com/static/2bd2e5940bdb329b93e236f44dd37e01/dfe86/current-bench-camel.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>Regular CI systems are optimised for workloads that do not require stable performance over time. This makes them unsuitable for running performance benchmarks.</p>

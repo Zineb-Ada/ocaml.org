@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2022-11-10-towards-minimal-disk-usage-for-tezos-ba
 date: 2022-11-10T00:00:00-00:00
 preview_image: https://tarides.com/static/f40f61613e381ebad045c51adb0241ed/18869/context-pruning-minimal.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>Over the last few months, Tarides has focused on designing,
@@ -51,7 +55,7 @@ that only the unused data is discarded, i.e., <em>all</em> currently used data
 is preserved.</p>
 <p>The GC operation is performed asynchronously with minimal impact on
 the Tezos node. In the rolling node's case, a GC'd context uses less
-disk space and has more stable performance throughout the node's run,
+disk space and has a more stable performance throughout,
 as the protocol operations (such as executing smart contracts or
 computing baking rewards) only need data from the upper layer. As
 such, the nodes that benefit from the store's layered structure don't
@@ -91,12 +95,12 @@ never updated.</p>
 objects. A commit, together with the objects reachable from that
 commit, represents the state associated to a Tezos' block.  The
 Tezos node only needs the last commit to process new blocks, but
-bakers will need a lot more comits to compute baking rewards.
+bakers will need a lot more commits to compute baking rewards.
 Objects not reachable from these commits can are unreachable or dead
 objects.</p>
 <p><span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; ">
       <a href="https://tarides.com/static/ecda34b084e8e0384500bf41aaf273f3/bdcd6/DQJJLll.jpg" class="gatsby-resp-image-link" style="display: block" target="_blank" rel="noopener">
-    <span class="gatsby-resp-image-background-image" style="padding-bottom: 95.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7qINAUFWEf/EABkQAAIDAQAAAAAAAAAAAAAAAAAQAREhQf/aAAgBAQABBQIp4QuH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMUFRECFx/9oACAEBAAE/IXZLYqHE5PDKdCpm2eP/2gAMAwEAAgADAAAAENAIPv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESExQXGRUWHh/9oACAEBAAE/EAIBrhmTC7YUA683N0Wvyy/sZStEPcNpbdu8QrlgZuBz3P/Z'); background-size: cover; display: block;"></span>
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 95.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7qINAUFWEf/EABkQAQACAwAAAAAAAAAAAAAAAAAQIQERQf/aAAgBAQABBQJqKUxHH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABwQAAICAgMAAAAAAAAAAAAAAAABITFBURARgf/aAAgBAQABPyFydtiocsnopAqZtnj/2gAMAwEAAgADAAAAENAAPv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESExQVFxkWH/2gAIAQEAAT8QAimumZNXrDQHXu5uC18svj6ZStEPszS27d4lG7gZuHb7P//Z'); background-size: cover; display: block;"></span>
   <img src="https://tarides.com/static/ecda34b084e8e0384500bf41aaf273f3/7bf67/DQJJLll.jpg" class="gatsby-resp-image-image" alt="DQJJLll" title="DQJJLll" srcset="/static/ecda34b084e8e0384500bf41aaf273f3/651be/DQJJLll.jpg 170w,
 /static/ecda34b084e8e0384500bf41aaf273f3/d30a3/DQJJLll.jpg 340w,
 /static/ecda34b084e8e0384500bf41aaf273f3/7bf67/DQJJLll.jpg 680w,
@@ -113,7 +117,7 @@ Tezos nodes. An archive node stores the complete blockchain
 history from the genesis block. Currently, this is over <em>2 million</em>
 blocks. Roughly speaking, a block corresponds to a commit. A
 rolling node stores only the last <em>n</em> blocks, where <em>n</em> is chosen
-to keep the total disk usage within some bound. This may be as small
+to keep the total disk usage within some bounds. This may be as small
 as 5 (or even less) or as large as 40,000 or more. Another type of
 node is the &quot;full node,&quot; which is between an archive node and a
 rolling node.</p>

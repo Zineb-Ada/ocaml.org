@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2022-04-26-lightning-fast-with-irmin-tezos-storage
 date: 2022-04-26T00:00:00-00:00
 preview_image: https://tarides.com/static/efce619e39c2a72fb0b935be481a220b/0132d/banner.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>Over the last year, the Tarides
@@ -261,8 +265,8 @@ the Irmin team!</p>
 <div class="footnotes">
 <hr/>
 <ol>
-<li>Our benchmarks compare Octez 10.2, 11.1, 12.0, and 13.0-rc1 by replaying the 150k first blocks of the Hangzhou Protocol on Tezos Mainnet (corresponding to the period Dec 2021 &ndash; Jan 2022) on <a href="https://metal.equinix.com/product/servers/c3-small/">an Intel Xeon E-2278G processor</a> constrained to use at most 8 GB RAM. Our benchmarking setup explicitly excludes the networking I/O operations and protocol computations to focus on the context I/O operations only. Octez 10.2 uses Irmin 2.7.2, while both Octez 11.1 and 12.0 use Irmin 2.9.1 (which explains why the graphs are similar). Octez v13-rc1 uses Irmin 3.2.1, which we just released this month (Apr 2022).<a href="https://tarides.com/feed.xml#fnref-1" class="footnote-backref">&#8617;</a><a href="https://tarides.com/feed.xml#fnref-1" class="footnote-backref">&#8617;</a></li>
-<li>The trade-off here is that without an index the context store can no longer guarantee to have perfect deduplication, but our testing and benchmarks indicate that this has relatively little impact on the size of the context as a whole (particularly after accounting for no longer needing to store an index entry for every object!).<a href="https://tarides.com/feed.xml#fnref-2" class="footnote-backref">&#8617;</a><a href="https://tarides.com/feed.xml#fnref-2" class="footnote-backref">&#8617;</a></li>
-<li>To reproduce these benchmarks, you can download the replay trace we used <a href="http://data.tarides.com/lib_context/hangzou-level2.tgz">here</a> (14G). This trace can be replayed against a fork of <code>lib_context</code> available <a href="https://github.com/ngoguey42/tezos/tree/new-action-trace-recording">here</a>.<a href="https://tarides.com/feed.xml#fnref-3" class="footnote-backref">&#8617;</a><a href="https://tarides.com/feed.xml#fnref-3" class="footnote-backref">&#8617;</a></li>
+<li>Our benchmarks compare Octez 10.2, 11.1, 12.0, and 13.0-rc1 by replaying the 150k first blocks of the Hangzhou Protocol on Tezos Mainnet (corresponding to the period Dec 2021 &ndash; Jan 2022) on <a href="https://metal.equinix.com/product/servers/c3-small/">an Intel Xeon E-2278G processor</a> constrained to use at most 8 GB RAM. Our benchmarking setup explicitly excludes the networking I/O operations and protocol computations to focus on the context I/O operations only. Octez 10.2 uses Irmin 2.7.2, while both Octez 11.1 and 12.0 use Irmin 2.9.1 (which explains why the graphs are similar). Octez v13-rc1 uses Irmin 3.2.1, which we just released this month (Apr 2022).<a href="https://tarides.com/feed.xml#fnref-1" class="footnote-backref">&#8617;</a></li>
+<li>The trade-off here is that without an index the context store can no longer guarantee to have perfect deduplication, but our testing and benchmarks indicate that this has relatively little impact on the size of the context as a whole (particularly after accounting for no longer needing to store an index entry for every object!).<a href="https://tarides.com/feed.xml#fnref-2" class="footnote-backref">&#8617;</a></li>
+<li>To reproduce these benchmarks, you can download the replay trace we used <a href="http://data.tarides.com/lib_context/hangzou-level2.tgz">here</a> (14G). This trace can be replayed against a fork of <code>lib_context</code> available <a href="https://github.com/ngoguey42/tezos/tree/new-action-trace-recording">here</a>.<a href="https://tarides.com/feed.xml#fnref-3" class="footnote-backref">&#8617;</a></li>
 </ol>
 </div>

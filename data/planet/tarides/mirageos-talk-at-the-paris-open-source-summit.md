@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2019-12-04-mirageos-talk-at-the-paris-open-source-
 date: 2019-12-04T00:00:00-00:00
 preview_image: https://tarides.com/static/646b9e94e874374ddd8450022db7c3e2/96c5f/paris_from_window.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>We are thrilled to have been selected by the <a href="https://www.opensourcesummit.paris">Paris Open Source Summit</a>

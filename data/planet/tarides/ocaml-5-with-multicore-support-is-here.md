@@ -6,6 +6,10 @@ url: https://tarides.com/blog/2022-12-19-ocaml-5-with-multicore-support-is-here
 date: 2022-12-19T00:00:00-00:00
 preview_image: https://tarides.com/static/35feab48b7c6539b0d44060cedad3d77/0132d/OC5.jpg
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>It's here! It's finally here! On Friday, 16 December 2022, the OCaml community <a href="https://discuss.ocaml.org/t/ocaml-5-0-0-is-out/10974/7">announced the official release of Multicore OCaml</a>! From the beginning, Tarides has been deeply involved in OCaml's evolution, so we're very proud to present OCaml 5!</p>

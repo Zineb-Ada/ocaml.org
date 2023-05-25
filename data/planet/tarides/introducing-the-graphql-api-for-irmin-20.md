@@ -6,11 +6,15 @@ url: https://tarides.com/blog/2019-11-27-introducing-the-graphql-api-for-irmin-2
 date: 2019-11-27T00:00:00-00:00
 preview_image: https://tarides.com/static/774a33033c774c2c0c5b638f61694621/0d665/irmin-graphql.png
 featured:
+authors:
+- tarides
+tags:
+- tarides
 ---
 
 <p>With the release of Irmin 2.0.0, we are happy to announce a new package - <code>irmin-graphql</code>, which can be used to serve data from Irmin over HTTP. This blog post will give you some examples to help you get started, there is also <a href="https://irmin.org/tutorial/graphql">a section in the <code>irmin-tutorial</code></a> with similar information. To avoid writing the same thing twice, this post will cover the basics of getting started, plus a few interesting ideas for queries.</p>
 <p>Getting the <code>irmin-graphql</code> server running from the command-line is easy:</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ irmin graphql --root<span class="token operator">=</span>/tmp/irmin</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ irmin graphql <span class="token parameter variable">--root</span><span class="token operator">=</span>/tmp/irmin</code></pre></div>
 <p>where <code>/tmp/irmin</code> is the actual path to your repository. This will start the server on <code>localhost:8080</code>, but it's possible to customize this using the <code>--address</code> and <code>--port</code> flags.</p>
 <p>The new GraphQL API has been added to address some of the shortcomings that have been identified with the old HTTP API, as well as enable a number of new features and capabilities.</p>
 <h1 style="position:relative;"><a href="https://tarides.com/feed.xml#graphql" aria-label="graphql permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GraphQL</h1>
@@ -150,12 +154,12 @@ The existing low-level Irmin HTTP API is a perfect example of this. Fetching the
 <p>To achieve this, the new GraphQL API allows providing an &quot;output type&quot; and an &quot;input type&quot; for most of the configurable types in your store (<code>contents</code>, <code>key</code>, <code>metadata</code>, <code>hash</code>, <code>branch</code>). The output type specifies how data is presented to the client, while the input type controls how data can be provided by the client. Let's take a closer look at specifying a custom output type.</p>
 <p>Essentially you have to construct a value of type <code>(unit, 'a option) Graphql_lwt.Schema.typ</code> (from the <a href="https://tarides.com/ocaml-graphql-server"><code>graphql-lwt</code></a> package), assuming your content type is <code>'a</code>. We could construct a GraphQL object type for our example content type <code>contact</code> as follows:</p>
 <div class="gatsby-highlight" data-language="ocaml"><pre class="language-ocaml"><code class="language-ocaml"><span class="token comment">(* (unit, contact option) Graphql_lwt.Schema.typ *)</span>
-<span class="token keyword">let</span> contact_schema_typ <span class="token operator">=</span> <span class="token module variable">Graphql_lwt</span><span class="token punctuation">.</span><span class="token module variable">Schema</span><span class="token punctuation">.</span><span class="token punctuation">(</span>obj <span class="token string">&quot;Contact&quot;</span>
-  <span class="token label function">~fields</span><span class="token punctuation">:</span><span class="token punctuation">(</span><span class="token keyword">fun</span> <span class="token punctuation">_</span> <span class="token operator">-&gt;</span> <span class="token punctuation">[</span>
+<span class="token keyword">let</span> contact_schema_typ <span class="token operator">=</span> Graphql_lwt<span class="token punctuation">.</span>Schema<span class="token punctuation">.</span><span class="token punctuation">(</span>obj <span class="token string">&quot;Contact&quot;</span>
+  <span class="token label property">~fields</span><span class="token punctuation">:</span><span class="token punctuation">(</span><span class="token keyword">fun</span> <span class="token punctuation">_</span> <span class="token operator">-&gt;</span> <span class="token punctuation">[</span>
     field <span class="token string">&quot;name&quot;</span>
-      <span class="token label function">~typ</span><span class="token punctuation">:</span><span class="token punctuation">(</span>non_null string<span class="token punctuation">)</span>
-      <span class="token label function">~args</span><span class="token punctuation">:</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
-      <span class="token label function">~resolve</span><span class="token punctuation">:</span><span class="token punctuation">(</span><span class="token keyword">fun</span> <span class="token punctuation">_</span> contact <span class="token operator">-&gt;</span>
+      <span class="token label property">~typ</span><span class="token punctuation">:</span><span class="token punctuation">(</span>non_null string<span class="token punctuation">)</span>
+      <span class="token label property">~args</span><span class="token punctuation">:</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
+      <span class="token label property">~resolve</span><span class="token punctuation">:</span><span class="token punctuation">(</span><span class="token keyword">fun</span> <span class="token punctuation">_</span> contact <span class="token operator">-&gt;</span>
         contact<span class="token punctuation">.</span>name
       <span class="token punctuation">)</span>
     <span class="token punctuation">;</span>
@@ -164,32 +168,32 @@ The existing low-level Irmin HTTP API is a perfect example of this. Fetching the
 <span class="token punctuation">)</span></code></pre></div>
 <p>To use the custom type, you need to instantiate the functor <code>Irmin_unix.Graphql.Server.Make_ext</code> (assuming you're deploying to a Unix target) with an Irmin store (type <code>Irmin.S</code>) and a custom types module (type <code>Irmin_graphql.Server.CUSTOM_TYPES</code>). This requires a bit of plumbing:</p>
 <div class="gatsby-highlight" data-language="ocaml"><pre class="language-ocaml"><code class="language-ocaml"><span class="token comment">(* Instantiate the Irmin functor somehow *)</span>
-<span class="token keyword">module</span> S <span class="token punctuation">:</span> <span class="token module variable">Irmin</span><span class="token punctuation">.</span>S <span class="token keyword">with</span> <span class="token keyword">type</span> contents <span class="token operator">=</span> contact <span class="token operator">=</span>
+<span class="token keyword">module</span> S <span class="token punctuation">:</span> Irmin<span class="token punctuation">.</span>S <span class="token keyword">with</span> <span class="token keyword">type</span> contents <span class="token operator">=</span> contact <span class="token operator">=</span>
   <span class="token comment">(* ... *)</span>
 
 <span class="token comment">(* Custom GraphQL presentation module *)</span>
-<span class="token keyword">module</span> <span class="token module variable">Custom_types</span> <span class="token operator">=</span> <span class="token keyword">struct</span>
+<span class="token keyword">module</span> Custom_types <span class="token operator">=</span> <span class="token keyword">struct</span>
   <span class="token comment">(* Construct default GraphQL types *)</span>
-  <span class="token keyword">module</span> <span class="token module variable">Defaults</span> <span class="token operator">=</span> <span class="token module variable">Irmin_graphql</span><span class="token punctuation">.</span><span class="token module variable">Server</span><span class="token punctuation">.</span><span class="token module variable">Default_types</span> <span class="token punctuation">(</span>S<span class="token punctuation">)</span>
+  <span class="token keyword">module</span> Defaults <span class="token operator">=</span> Irmin_graphql<span class="token punctuation">.</span>Server<span class="token punctuation">.</span>Default_types <span class="token punctuation">(</span>S<span class="token punctuation">)</span>
 
   <span class="token comment">(* Use the default types for most things *)</span>
-  <span class="token keyword">module</span> <span class="token module variable">Key</span> <span class="token operator">=</span> <span class="token module variable">Defaults</span><span class="token punctuation">.</span><span class="token module variable">Key</span>
-  <span class="token keyword">module</span> <span class="token module variable">Metadata</span> <span class="token operator">=</span> <span class="token module variable">Defaults</span><span class="token punctuation">.</span><span class="token module variable">Metadata</span>
-  <span class="token keyword">module</span> <span class="token module variable">Hash</span> <span class="token operator">=</span> <span class="token module variable">Defaults</span><span class="token punctuation">.</span><span class="token module variable">Hash</span>
-  <span class="token keyword">module</span> <span class="token module variable">Branch</span> <span class="token operator">=</span> <span class="token module variable">Defaults</span><span class="token punctuation">.</span><span class="token module variable">Branch</span>
+  <span class="token keyword">module</span> Key <span class="token operator">=</span> Defaults<span class="token punctuation">.</span>Key
+  <span class="token keyword">module</span> Metadata <span class="token operator">=</span> Defaults<span class="token punctuation">.</span>Metadata
+  <span class="token keyword">module</span> Hash <span class="token operator">=</span> Defaults<span class="token punctuation">.</span>Hash
+  <span class="token keyword">module</span> Branch <span class="token operator">=</span> Defaults<span class="token punctuation">.</span>Branch
 
   <span class="token comment">(* Use custom output type for contents *)</span>
-  <span class="token keyword">module</span> <span class="token module variable">Contents</span> <span class="token operator">=</span> <span class="token keyword">struct</span>
-    <span class="token keyword">include</span> <span class="token module variable">Defaults</span><span class="token punctuation">.</span><span class="token module variable">Contents</span>
+  <span class="token keyword">module</span> Contents <span class="token operator">=</span> <span class="token keyword">struct</span>
+    <span class="token keyword">include</span> Defaults<span class="token punctuation">.</span>Contents
     <span class="token keyword">let</span> schema_typ <span class="token operator">=</span> contact_schema_typ
   <span class="token keyword">end</span>
 <span class="token keyword">end</span>
 
-<span class="token keyword">module</span> <span class="token module variable">Remote</span> <span class="token operator">=</span> <span class="token keyword">struct</span>
-  <span class="token keyword">let</span> remote <span class="token operator">=</span> <span class="token module variable">Some</span> s<span class="token punctuation">.</span>remote
+<span class="token keyword">module</span> Remote <span class="token operator">=</span> <span class="token keyword">struct</span>
+  <span class="token keyword">let</span> remote <span class="token operator">=</span> Some s<span class="token punctuation">.</span>remote
 <span class="token keyword">end</span>
 
-<span class="token keyword">module</span> <span class="token module variable">GQL</span> <span class="token operator">=</span> <span class="token module variable">Irmin_unix</span><span class="token punctuation">.</span><span class="token module variable">Graphql</span><span class="token punctuation">.</span><span class="token module variable">Server</span><span class="token punctuation">.</span><span class="token module variable">Make_ext</span> <span class="token punctuation">(</span>S<span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token module variable">Remote</span><span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token module variable">Custom_types</span><span class="token punctuation">)</span></code></pre></div>
+<span class="token keyword">module</span> GQL <span class="token operator">=</span> Irmin_unix<span class="token punctuation">.</span>Graphql<span class="token punctuation">.</span>Server<span class="token punctuation">.</span>Make_ext <span class="token punctuation">(</span>S<span class="token punctuation">)</span> <span class="token punctuation">(</span>Remote<span class="token punctuation">)</span> <span class="token punctuation">(</span>Custom_types<span class="token punctuation">)</span></code></pre></div>
 <p>With this in hand, we can now query specifically for the email of <code>john-doe</code>:</p>
 <div class="gatsby-highlight" data-language="graphql"><pre class="language-graphql"><code class="language-graphql"><span class="token keyword">query</span> <span class="token punctuation">{</span>
   <span class="token object">master</span> <span class="token punctuation">{</span>

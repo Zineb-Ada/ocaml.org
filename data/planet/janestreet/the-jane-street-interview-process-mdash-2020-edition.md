@@ -7,6 +7,10 @@ url: https://blog.janestreet.com/jane-street-interview-process-2020/
 date: 2020-07-24T00:00:00-00:00
 preview_image: https://blog.janestreet.com/jane-street-interview-process-2020/ocaml_code.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>We&rsquo;re busy preparing for our software engineering <a href="https://blog.janestreet.com/unraveling/">fall hiring

@@ -8,6 +8,10 @@ url: https://blog.janestreet.com/this-is-not-the-performance-you-were-looking-fo
 date: 2017-04-20T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
+authors:
+- janestreet
+tags:
+- janestreet
 ---
 
 <p>It&rsquo;s often surprising just how much software performance depends on how the
