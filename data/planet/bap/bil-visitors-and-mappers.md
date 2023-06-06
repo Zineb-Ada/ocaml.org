@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - bap
+tags:
+- bap
 ---
 
 <p>During disassembly, BAP lifts native binary instructions to a

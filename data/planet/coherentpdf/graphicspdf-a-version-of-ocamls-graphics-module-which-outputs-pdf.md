@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - coherentpdf
+tags:
+- coherentpdf
 ---
 
 <p>I&rsquo;ve been packaging up some little pieces of previously-released software as OPAM packages, hoping that will make them more widely used.</p>

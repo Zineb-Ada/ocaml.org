@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 <p>First release of Tgls, thin bindings to OpenGL {3,4} and OpenGL ES {2,3} for OCaml.</p>

@@ -9,6 +9,8 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
+tags:
+- wisdomandwonder
 ---
 
 I&rsquo;m very proud to announce Ocamlnet 3.0.0, a completely overhauled version of Ocamlnet. Wish I had some problems that needed solving with ocamlnet! (via caml-list)

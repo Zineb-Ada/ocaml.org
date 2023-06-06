@@ -8,6 +8,8 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
+tags:
+- wisdomandwonder
 ---
 
 Here is an old post comparing Stalin Scheme to OCaml, among a few other languages. Here is the article on Jon&rsquo;s page. Stalin seems pretty amazing.

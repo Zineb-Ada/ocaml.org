@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 <p>First release of Rtime, an OCaml module implementing timelines for React.</p>

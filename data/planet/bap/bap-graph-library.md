@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - bap
+tags:
+- bap
 ---
 
 <p>Although BAP is well-documented, its

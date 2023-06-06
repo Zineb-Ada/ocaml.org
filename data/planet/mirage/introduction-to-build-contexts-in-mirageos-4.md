@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Lucas Pluvinage
+tags:
+- mirage
 ---
 
 

@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - Daniil Baturin
+tags:
+- baturin
 ---
 
 

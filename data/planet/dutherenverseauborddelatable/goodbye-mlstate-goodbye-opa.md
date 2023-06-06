@@ -9,6 +9,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - dutherenverseauborddelatable
+tags:
+- dutherenverseauborddelatable
 ---
 
 <p>Tides come and tides go.</p>

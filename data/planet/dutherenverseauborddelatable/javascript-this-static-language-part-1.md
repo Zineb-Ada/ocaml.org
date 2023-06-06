@@ -9,6 +9,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - dutherenverseauborddelatable
+tags:
+- dutherenverseauborddelatable
 ---
 
 <h2 style="text-align:justify;">tl;dr</h2>

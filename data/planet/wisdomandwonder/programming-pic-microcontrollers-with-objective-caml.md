@@ -8,6 +8,8 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
+tags:
+- wisdomandwonder
 ---
 
 This project brings Objective Caml into the set of tools which allow to program PIC microcontrollers. (via Anil)

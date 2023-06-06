@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - lpw25
+tags:
+- lpw25
 ---
 
 <p>Since its creation camlp4 has proven to be a very useful tool. People have used

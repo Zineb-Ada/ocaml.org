@@ -4,10 +4,12 @@ description: We continue  our presentation of the winning apps of the Opa Develo
   Challenge . Today is time for OpaDo, the 2nd place winning entry by ...
 url: http://blog.opalang.org/2012/02/spotlight-on-opa-app-opado-by-tristan.html
 date: 2012-02-20T13:02:00-00:00
-preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDSv50cuuFkEH4w783wJF-8Gb3gNx4pIGLXfqC9rOmAcn8IiGjKCnvjW2ZjIA1pwBdDotE0Q8pWMMzb2CfF4OncSI1M4mxPaChOvfY-AtQzbTpvaLlKNYoA=w1200-h630-p-k-no-nu
+preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDQFidvLIdSrg0RLFvPm61h3pKaj11mF9zvsANJql2MmDll0DHwGoN1tQuiUDgouEfo_nJwbHzKb78ZlKqqzn38f-EoXc5BJjFED-XhQimcuXXVHPEP7dh0=w1200-h630-p-k-no-nu
 featured:
 authors:
 - Adam Koprowski
+tags:
+- opa
 ---
 
 <div class="sectionbody">

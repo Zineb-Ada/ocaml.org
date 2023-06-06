@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - Shayne Fletcher
+tags:
+- sfletcher
 ---
 
 <p>

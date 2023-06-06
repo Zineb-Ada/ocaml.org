@@ -9,6 +9,8 @@ preview_image: https://gaiustech.files.wordpress.com/2013/08/maketest.png
 featured:
 authors:
 - gaius
+tags:
+- gaius
 ---
 
 <p>Before resuming feature implementation in <a href="http://gaiustech.github.io/ociml/">OCI*ML</a> I thought I ought to tighten up the test suite a bit, so I have started on a <code>make test</code> target, including some utilities for generating large test datasets, which should be useful elsewhere. In the process I uncovered a couple of bugs, which I also fixed. Once I&rsquo;m happy with the level of coverage, I might even get around to doing LOBs&hellip;</p>

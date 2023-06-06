@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - HB
+tags:
+- opa
 ---
 
 Last week, we launched 1.0. That's a milestone for a project. In our case, it meant that all the features that we wanted for 1.0 were in... and that of course meant the support of Node.js. Thank you for all nice messages telling it was a perfect move. When we read things like &quot;Now, I want to use Opa&quot;, that goes straight to the heart. And of course, turns out there was another major reason for releasing 1.0: team was thirsty!<br/>

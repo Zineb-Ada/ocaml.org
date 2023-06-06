@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - inria
+tags:
+- inria
 ---
 
 

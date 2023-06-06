@@ -9,6 +9,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
+tags:
+- rjones
 ---
 
 <p>After using OCaml for around 10 years it is still my favourite language, and it&rsquo;s amazing how far ahead of other programming languages it remains to this day.</p>

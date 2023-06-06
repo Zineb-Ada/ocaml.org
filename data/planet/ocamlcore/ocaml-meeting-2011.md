@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamlcore
+tags:
+- ocamlcore
 ---
 
 <p>4 weeks ago, on Friday April 15th, the annual OCaml Meeting took place at Telecom Paris. OCamlCore (the company), organized this meeting for the fourth time. The event was quite a successful day. There were 65 attendees and 12 talks.</p>

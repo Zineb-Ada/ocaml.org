@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamllabs
+tags:
+- ocamllabs
 ---
 
 <p>It's time for the eleventh Cambridge OCaml compiler-hacking evening! This time we're heading to central Cambridge, to enjoy all that <a href="http://www.pem.cam.ac.uk/">Pembroke College</a> has to offer.</p>

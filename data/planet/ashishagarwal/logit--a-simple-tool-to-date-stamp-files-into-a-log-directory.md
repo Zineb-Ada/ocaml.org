@@ -7,6 +7,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - ashishagarwal
+tags:
+- ashishagarwal
 ---
 
 <p><a href="http://github.com/agarwal/logit">http://github.com/agarwal/logit</a></p>

@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2014/11/groot_tree2.jpg#hero" alt="tree"/></p>

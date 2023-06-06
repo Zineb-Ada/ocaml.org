@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2015/01/pearls2-1.jpg#hero" alt="pears"/></p>

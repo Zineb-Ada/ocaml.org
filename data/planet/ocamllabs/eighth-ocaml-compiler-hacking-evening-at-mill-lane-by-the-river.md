@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamllabs
+tags:
+- ocamllabs
 ---
 
 <p><strong>Update: This session will be a joint F#/OCaml hacking event, beginning with a talk from Don Syme about F# compiler and language development!</strong></p>

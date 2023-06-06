@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - HB
+tags:
+- opa
 ---
 
 Two short news:<br/>

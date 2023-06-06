@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Thomas Leonard
+tags:
+- talex5
 ---
 
 <p>I've been running QubesOS as my main desktop since 2015.

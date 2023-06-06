@@ -8,6 +8,8 @@ preview_image: http://4.bp.blogspot.com/-aCPIKt9z5Iw/UJFAkrSya5I/AAAAAAAAAA8/jAk
 featured:
 authors:
 - "C\xE9dric Soulas"
+tags:
+- opa
 ---
 
 We live in the as-a era. IaaS, SaaS, PaaS. Even Database-as-a-Service where companies offer SQL and NoSQL database management systems hosted online.<br/>

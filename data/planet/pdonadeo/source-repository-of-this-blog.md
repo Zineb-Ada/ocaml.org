@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - pdonadeo
+tags:
+- pdonadeo
 ---
 
 <div><p class="noindent">

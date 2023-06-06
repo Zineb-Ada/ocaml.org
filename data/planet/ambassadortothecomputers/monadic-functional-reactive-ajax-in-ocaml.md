@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - ambassadortothecomputers
+tags:
+- ambassadortothecomputers
 ---
 
 Yesterday I released three related projects which I've been working on for a long time:

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - szacchiroli
+tags:
+- szacchiroli
 ---
 
 <h1>OCaml Batteries Included 1.1.0 has arrived in Debian</h1>

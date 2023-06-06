@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamlcore
+tags:
+- ocamlcore
 ---
 
 <p><img src="http://www.ocamlcore.com/wp/wp-content/uploads/logo.png" align="left" width="100" height="94" alt="OASIS logo"/><a href="http://oasis.forge.ocamlcore.org">OASIS</a> is a tool to integrate a configure, build and install system in your OCaml  project. It helps to create standard entry points in your build system and  allows external tools to analyse your project easily. It is the building brick of OASIS-DB, a CPAN for OCaml.</p>

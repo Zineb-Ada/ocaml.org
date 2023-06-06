@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>OPAM has a great <a href="https://opam.ocaml.org/doc/Usage.html#opamswitch">compiler

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
+tags:
+- rgrinberg
 ---
 
 <p>Reading OCharles&rsquo; excellent series about 24 days of hackage, in

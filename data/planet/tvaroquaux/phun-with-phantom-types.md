@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - Till
+tags:
+- tvaroquaux
 ---
 
 <p>Phantom types are a nifty trick: types are used to store additional

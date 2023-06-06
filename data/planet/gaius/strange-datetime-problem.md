@@ -9,6 +9,8 @@ preview_image: https://gaiustech.files.wordpress.com/2018/07/cropped-lynx.jpg?w=
 featured:
 authors:
 - gaius
+tags:
+- gaius
 ---
 
 <p>While working on my unit tests, I came across a sporadic failure in inserting and selecting Datetimes to the database, so I wrote a quick test harness to see what&rsquo;s going on:</p>

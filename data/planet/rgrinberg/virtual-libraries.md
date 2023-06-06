@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ""
+tags:
+- rgrinberg
 ---
 
 <p>Last week I finally managed to slog through the last remaining issues required

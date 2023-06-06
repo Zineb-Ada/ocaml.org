@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - ambassadortothecomputers
+tags:
+- ambassadortothecomputers
 ---
 
 <p>(I set myself the goal of posting every week, but the <a href="http://skydeck.com/blog/announcements/yourcellphoneonline/">latest Skydeck release</a> has kept me busy, and it turned out I didn't understand the following as well as I thought.)<br/>

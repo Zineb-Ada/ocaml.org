@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - frama-c
+tags:
+- frama-c
 ---
 
 

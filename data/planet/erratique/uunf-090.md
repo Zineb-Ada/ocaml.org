@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 <p>First release of Uunf, an OCaml module for Unicode text normalization.</p>

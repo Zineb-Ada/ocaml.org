@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - szacchiroli
+tags:
+- szacchiroli
 ---
 
 <h1>new OCaml Autoconf release: 1.1</h1>

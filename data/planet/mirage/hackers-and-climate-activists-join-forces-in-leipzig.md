@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Damien Leloup
+tags:
+- mirage
 ---
 
 

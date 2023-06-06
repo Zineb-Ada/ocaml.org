@@ -9,6 +9,8 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
+tags:
+- wisdomandwonder
 ---
 
 OPAM is a source-based package manager for OCaml. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow. Why here.

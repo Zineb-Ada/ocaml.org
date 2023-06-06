@@ -9,6 +9,8 @@ preview_image: https://gaiustech.files.wordpress.com/2018/07/cropped-lynx.jpg?w=
 featured:
 authors:
 - gaius
+tags:
+- gaius
 ---
 
 <p>As of today I am on gardening leave, and I intend to spend the time productively (after taking a long-planned and well-deserved holiday next week!). In no particular order:</p>

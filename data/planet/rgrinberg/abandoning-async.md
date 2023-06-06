@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
+tags:
+- rgrinberg
 ---
 
 <p>There is an old and great schism in the OCaml community. The schism is

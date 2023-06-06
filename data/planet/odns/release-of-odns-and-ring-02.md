@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - odns
+tags:
+- odns
 ---
 
 <p>Finally the first official release of <strong>ODNS</strong> and <strong>ring</strong> is here!</p>

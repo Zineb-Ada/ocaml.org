@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
+tags:
+- rgrinberg
 ---
 
 <p>Lately, I&rsquo;ve been messing around with Janestreet&rsquo;s core and async

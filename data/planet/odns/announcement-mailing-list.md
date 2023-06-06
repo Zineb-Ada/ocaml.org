@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - odns
+tags:
+- odns
 ---
 
 <p>Hi all,</p>

@@ -8,6 +8,8 @@ preview_image: https://lh3.googleusercontent.com/-fH6W67luYB8/TzUkG3Oe4qI/AAAAAA
 featured:
 authors:
 - Adam Koprowski
+tags:
+- opa
 ---
 
 <div class="sectionbody">

@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - "Mat\xEDas Giovannini"
+tags:
+- mgiovannini
 ---
 
 Back to OCaml! Catching up with StackOverflow's OCaml questions, I found an interesting one about private type abbreviations in module signatures. One thing in that conversation that struck me as odd was the assertion that the compiler optimizes single-constructor variants, thereby subsuming the semantics of Haskell's all three declarators, data, type and newtype, into one. Definitive proof would

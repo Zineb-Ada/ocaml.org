@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - Shayne Fletcher
+tags:
+- sfletcher
 ---
 
 &amp;#60;!DOCTYPE HTML PUBLIC &amp;#34;-//W3C//DTD HTML 4.01//EN&amp;#34;

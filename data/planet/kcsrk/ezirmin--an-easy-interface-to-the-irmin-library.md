@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p><a href="https://github.com/kayceesrk/ezirmin">Ezirmin</a> is an easy interface over the

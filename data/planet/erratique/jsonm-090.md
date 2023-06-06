@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 <p>First release of Jsonm, a non-blocking streaming JSON codec for OCaml.</p>

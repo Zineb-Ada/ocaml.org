@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Xavier Clerc
+tags:
+- ocamljava
 ---
 
 <p>This site is replacing the previous one, hosted on <code>x9c.fr</code>. The code repository is published on <code>github.com</code>, where issues can be reported.</p>

@@ -4,10 +4,12 @@ description: The great debate Dynamic vs. Static is a classic one. And usually e
   up with no clear winner. Dynamic programming languages offer develope...
 url: http://blog.opalang.org/2012/09/programming-tools-ux-when-statically.html
 date: 2012-09-18T10:08:00-00:00
-preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDQOOlxTygWHjBAONEBtQUtwRl5U47ZuDTY3oWCeWPgV0T6ECKa2Wv2k9ykxoyDIXiqi0YZOVZ4spBgZCD4FQDU=w1200-h630-p-k-no-nu
+preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDQ98l74X5qKzVBz1ZMWKo9WACzBVeFgC_innYz43tGlXkcy_DhwXWbQ5NMrznDP8nfYt4rs7pxsXLH205e8IqY=w1200-h630-p-k-no-nu
 featured:
 authors:
 - Rudy Sicard
+tags:
+- opa
 ---
 
 <p>The great debate Dynamic vs. Static is a classic one. And usually ends up with no clear winner. Dynamic programming languages offer developers an awesome <a href="http://en.wikipedia.org/wiki/Workflow"><strong>workflow</strong></a>: <em>Edit, test, edit, test</em>... Static typing and compilation usually breaks this simple workflow, but offers more guarantees.</p><p><strong>Build &amp; Run on save</strong> functionality is not something new and exists in most IDEs. However, following the KISS philosophy, I recently worked on <code>opa-watch</code>, a simple independent tool that brings this functionality to your <a href="http://opalang.org">Opa</a> project.</p><p><code>opa-watch</code> automatically [re]compiles and [re]launches your project while you edit it. It simplifies your workflow and helps you to focus on editing and testing steps, just forgetting about the compilation step. All this is made possible by the speed of the <a href="http://opalang.org">Opa</a> compiler.</p><h3><code>opa-watch</code>: A standard use case</h3><p>In a terminal, create a new <a href="http://opalang.org">Opa</a> project (e.g. <code>opa create --name watchMe</code>). And <code>opa-watch</code> it <strong>once and for all</strong> by indicating the path of the project:</p><pre><code>opa-watch --src-dir watchMe</code></pre><p>Then you are notified <strong>Launched : watchMe</strong> and you can open your app in your browser (e.g. <code>firefox locahost:2001</code>):</p><img src="http://i.imgur.com/na3yY.png"/><br/>

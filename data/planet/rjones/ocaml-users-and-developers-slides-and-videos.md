@@ -7,6 +7,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
+tags:
+- rjones
 ---
 
 <p><a href="http://oud.ocaml.org/2012/#schedule">http://oud.ocaml.org/2012/#schedule</a> (thanks Anil).</p>

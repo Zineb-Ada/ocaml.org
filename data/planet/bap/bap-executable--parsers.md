@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - bap
+tags:
+- bap
 ---
 
 <p>One of the fundamental tasks in binary analysis is parsing executable

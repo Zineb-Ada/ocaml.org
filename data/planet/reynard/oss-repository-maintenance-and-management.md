@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - reynard
+tags:
+- reynard
 ---
 
 <p><strong>TL;DR</strong></p>

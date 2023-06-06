@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - szacchiroli
+tags:
+- szacchiroli
 ---
 
 <h1>OCaml 3.11 has migrated to testing</h1>

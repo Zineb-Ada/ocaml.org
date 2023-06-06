@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamllabs
+tags:
+- ocamllabs
 ---
 
 <p>&#8203;Our Autumn Compiler Hacking event will be held at Pembroke College! We are also inviting MirageOS users and devs to prepare for Mirage 3.0.</p>

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 <p>Release of Cmdliner 0.9.4, consult the release notes for details.</p>

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>This post describes a simple flat allocation profiler for OCaml 4.02 bytecode

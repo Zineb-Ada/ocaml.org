@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
+tags:
+- rgrinberg
 ---
 
 <p>This will be a short PSA to opam package maintainers to avoid spurious optional

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ujamjar
+tags:
+- ujamjar
 ---
 
 <p><a href="https://github.com/ujamjar/hardcaml-examples">hardcaml-examples</a> 

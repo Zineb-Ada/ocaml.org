@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - coherentpdf
+tags:
+- coherentpdf
 ---
 
 <p>I&rsquo;ve written a concise but self-contained introduction to writing  computer programs with OCaml, suitable for the talented beginner to  programming, or someone trying functional programming or OCaml for the  first time.</p>

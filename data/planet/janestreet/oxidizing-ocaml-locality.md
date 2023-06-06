@@ -8,6 +8,8 @@ preview_image: https://blog.janestreet.com/oxidizing-ocaml-locality/oxidizing-oc
 featured:
 authors:
 - janestreet
+tags:
+- janestreet
 ---
 
 <p>Coming from OCaml, the Rust programming language has many appealing

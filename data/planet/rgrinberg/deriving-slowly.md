@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
+tags:
+- rgrinberg
 ---
 
 <p>There&rsquo;s been some recent grumbling about the usability of ppx in OCaml, and

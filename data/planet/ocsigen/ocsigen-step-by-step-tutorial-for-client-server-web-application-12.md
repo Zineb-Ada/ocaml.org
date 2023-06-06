@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Vincent Balat
+tags:
+- ocsigen
 ---
 
 <p>This post (and the following one) is a step by step tutorial about

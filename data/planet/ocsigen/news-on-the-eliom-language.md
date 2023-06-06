@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Gabriel `Drup` Radanne
+tags:
+- ocsigen
 ---
 
 <p>The <a href="https://ocsigen.org/eliom/">Eliom framework</a> is the part of the <a href="https://ocsigen.org">ocsigen project</a> that aims to provide

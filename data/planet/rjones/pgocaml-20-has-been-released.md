@@ -9,6 +9,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
+tags:
+- rjones
 ---
 
 <p><a href="http://pgocaml.forge.ocamlcore.org/">PG&rsquo;OCaml</a> is a type-safe macro binding to PostgreSQL from OCaml that I wrote many moons ago.</p>

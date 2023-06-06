@@ -9,6 +9,8 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - examachine
+tags:
+- examachine
 ---
 
 <p>translating between OCaml Scheme and Haskell.</p>

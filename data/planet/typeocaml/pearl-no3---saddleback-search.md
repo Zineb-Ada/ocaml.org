@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2015/03/pearl_3_easter_1-2.jpg#hero" alt=""/></p>

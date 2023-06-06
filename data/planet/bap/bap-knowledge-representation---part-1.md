@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - bap
+tags:
+- bap
 ---
 
 <p>An important part of BAP 2.0 is the new knowledge representation system, which drives all the new code. Given how important it is for understanding and using modern BAP, I decided to introduce it informally in a series of blog posts. This series is by no means a substitution for documentation or a tutorial, which will (I hope) follow. The intention is to describe the system in a friendly manner like I would describe it to my colleague in front of a whiteboard.</p>

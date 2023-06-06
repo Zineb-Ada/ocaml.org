@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Psellos
+tags:
+- psellos
 ---
 
 <div class="date">January 19, 2016</div>

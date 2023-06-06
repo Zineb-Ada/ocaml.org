@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - Gabriel Radanne
+tags:
+- mirage
 ---
 
 

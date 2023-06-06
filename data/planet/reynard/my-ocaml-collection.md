@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - reynard
+tags:
+- reynard
 ---
 
 <p>Over the last year I&rsquo;ve worked on a few t-shirt designs to represent specific releases and/or events.</p>

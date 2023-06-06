@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ocamllabs
+tags:
+- ocamllabs
 ---
 
 <p>(Update (2014-06-24): Stephen Dolan will be giving a demo of multicore OCaml!)</p>

@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - Unknown
+tags:
+- opa
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><div class="content"><div class="sect1"><div class="sectionbody"><div class="paragraph">I am an intern at the Opa team having a summer break from my PhD at UCSD.&nbsp;The goal of my internship is to make strong static typing easier for web developers!<br/>

@@ -9,6 +9,8 @@ preview_image: https://gaiustech.files.wordpress.com/2011/09/segfault1.png
 featured:
 authors:
 - gaius
+tags:
+- gaius
 ---
 
 <p>This is quite a neat trick. Consider:</p>

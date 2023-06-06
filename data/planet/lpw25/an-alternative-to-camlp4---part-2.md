@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - lpw25
+tags:
+- lpw25
 ---
 
 <p>In my <a href="http://lpw25.net/2013/01/23/camlp4-alternative-part-1.html">previous blog post</a> I

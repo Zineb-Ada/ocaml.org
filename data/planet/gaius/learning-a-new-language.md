@@ -9,6 +9,8 @@ preview_image: https://gaiustech.files.wordpress.com/2018/07/cropped-lynx.jpg?w=
 featured:
 authors:
 - gaius
+tags:
+- gaius
 ---
 
 <p>Generally, every program I write, regardless of what useful thing it actually does, and regardless of what programming language it is written in, has to do certain things, which usually includes</p>

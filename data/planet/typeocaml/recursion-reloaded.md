@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2014/12/infinity-cubes-room.jpg#hero" alt="recursion_reloaded"/></p>

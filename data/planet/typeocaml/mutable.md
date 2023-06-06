@@ -9,6 +9,8 @@ preview_image:
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2015/01/mutable_2.jpg#hero" alt="mutable"/></p>

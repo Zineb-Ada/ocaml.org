@@ -4,10 +4,12 @@ description: Yesterday, our Dropbox-as-a-Database  blog post raised a lot of pos
   comments, in particular on Hacker News  and Twitter. To get an idea...
 url: http://blog.opalang.org/2012/11/dropbox-as-database-tutorial.html
 date: 2012-11-01T15:53:00-00:00
-preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDSXcxem--37imN1wKQh9OeKaKincVNe4qH77ArtI0LlrWQXs2oCmPSSJDtmcDEDL5SOee5epKfTOnxIo1X_TlrCh9FkvOZ2snJpm6Dmy9-C_IMGSv3hhvBB_2tGWbK0VOxZtISr0YYSy74btR-ToiS8aLbb3Zm-yIzT2TvS7oCrxLl6dycLIqXnJ8ocOvPpOP0lwFEFf2ZiFVBkIRJ5c90JG9x2mOYAvDRY_I2_HHbSJ1vJGjJ5FuiJ0K8QL-0yA0g5v6px9SCRW-z3nyz67DBiYtHhb6olDxmcNWQuS-KHr0-Pc0htDiMInCQzq7YOZYEYq0lrhLQ9=w1200-h630-p-k-no-nu
+preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDQomMhfrT3rNxXE_MuA4dAGlEAlBcvqqB0jcfIGqgZtU7N5zagXoRRxX1NPCVPwthuPIf8w5lntJPJof6KLH2IY2O4vqgODDINpkvNmR6vYWkWoOmDTHEzCLU3c87ch9eRsfDIChGwbyOgP8lU83qYp3pz08Lz6cFfH-H8WYIeyaK8Kmbdi72iYaW9VYIQbVSLjd3qLxRJFQVyqJ_9MU3LvMH13WYLns_5NS1KOPdNE0Kh5gmvU7IcGC5a7vip-DB9gBPXrCvqr8Zox3HC-1TJ-rlonMScza0uc_jw7MWmnzvVKHb04XBurDwfjjQuI49tj6xcQihwX=w1200-h630-p-k-no-nu
 featured:
 authors:
 - "C\xE9dric Soulas"
+tags:
+- opa
 ---
 
 <p>Yesterday, our <a href="http://blog.opalang.org/2012/10/dropbox-as-database.html">Dropbox-as-a-Database</a> blog post raised a lot of positive comments, in particular on <a href="http://news.ycombinator.com/item?id=4723087">Hacker News</a> and Twitter. To get an idea of the DaaD concept, I created a <a href="http://servermonitor-cedric.dotcloud.com/">demo application</a> using this new database back-end. </p><p>The demo arousing much interest, we decided not stop here! Today, we are introducing a tutorial to cover all steps of the creation of this application. Not all aspects are covered yet, but the goal is to explain in detail how the one-day demo app was built.</p><p>TL; DR: look at the <a href="https://github.com/cedricss/server-monitor/commits/master">commits</a></p><p><a href="http://server-monitor.herokuapp.com/resources/img/screenshot.png"><img src="https://a248.e.akamai.net/camo.github.com/25780b678024a19f152a85c207ee0a7242dbccfd/687474703a2f2f7365727665722d6d6f6e69746f722e6865726f6b756170702e636f6d2f7265736f75726365732f696d672f73637265656e73686f742e706e67" style="max-width:100%;"/></a></p><p>The tutorial will walk you through:</p><ul><li>create the application View (with HTML templates),</li>

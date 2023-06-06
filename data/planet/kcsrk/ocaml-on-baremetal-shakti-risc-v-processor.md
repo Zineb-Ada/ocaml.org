@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>It has been 3 months since I joined <a href="https://www.iitm.ac.in/">IIT Madras</a> and it

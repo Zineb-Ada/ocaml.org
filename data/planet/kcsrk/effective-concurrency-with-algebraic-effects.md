@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>Algebraic effects and handlers provide a modular abstraction for expressing

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
+tags:
+- erratique
 ---
 
 First release of <a href="https://erratique.ch/software/qrc">Qrc</a>, a <abbr>QR</abbr> code encoder for OCaml.

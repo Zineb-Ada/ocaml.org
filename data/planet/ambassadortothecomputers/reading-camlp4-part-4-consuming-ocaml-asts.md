@@ -8,6 +8,8 @@ preview_image:
 featured:
 authors:
 - ambassadortothecomputers
+tags:
+- ambassadortothecomputers
 ---
 
 It's easy to think of Camlp4 as just &quot;defmacro on steroids&quot;; that is, just a tool for syntax extension, but it is really a box of independently-useful tools. As we've seen, Camlp4 can be used purely for code generation; in this post I'll describe a tool that uses it purely for code consumption: a (minimal, broken) version of <a href="http://www.cs.ru.nl/~tews/otags/">otags</a>:

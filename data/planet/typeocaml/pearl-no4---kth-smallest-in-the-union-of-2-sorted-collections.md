@@ -9,6 +9,8 @@ preview_image: http://typeocaml.com/content/images/2017/10/cube-2.jpg
 featured:
 authors:
 - typeocaml
+tags:
+- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2017/10/cube-2-1.jpg#hero" alt="hero"/></p>

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>In the <a href="http://kcsrk.info/ocaml/multicore/2015/05/20/effects-multicore/">previous

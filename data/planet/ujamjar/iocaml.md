@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - ujamjar
+tags:
+- ujamjar
 ---
 
 <p>IOCaml is an OCaml kernel for the IPython notebook. This provides a REPL 

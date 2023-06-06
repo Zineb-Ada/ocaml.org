@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - coherentpdf
+tags:
+- coherentpdf
 ---
 
 <p>The first new release of the CamlPDF library for a while is here:</p>

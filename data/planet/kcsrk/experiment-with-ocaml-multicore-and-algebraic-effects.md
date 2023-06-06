@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
+tags:
+- kcsrk
 ---
 
 <p>I recently gave a talk on Algebraic Effects in OCaml at the <a href="https://ocaml.org/meetings/ocaml/2015/">OCaml Workshop

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - reynard
+tags:
+- reynard
 ---
 
 <p>Thanks to everyone who joined us for OCaml Compiler Hacking in the (incredibly warm!) Old Library at Pembroke College this week.</p>

@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - emillon
+tags:
+- emillon
 ---
 
 <p>Hello! It&rsquo;s 2016, it&rsquo;s November, and apparently it rhymes with <a href="http://nabomamo.botally.net/">#NaBoMaMo</a> 2016,

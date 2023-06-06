@@ -7,6 +7,8 @@ preview_image:
 featured:
 authors:
 - szacchiroli
+tags:
+- szacchiroli
 ---
 
 <h1>OCaml HTTP is now on the OCaml forge</h1>
