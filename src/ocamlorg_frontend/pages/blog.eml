@@ -19,7 +19,7 @@ Layout.render
                         <label for="f" class="sr-only">filter blog</label>
                         <%s! Forms.select
                           ~attrs:{|id="f" name="f" onchange="this.form.submit()"|}
-                          ~options:[("all", "All"); ("tarides", "Tarides"); ("ahrefs", "Ahrefs"); ("janestreet", "Janestreet")]
+                          ~options: (Data.Planet.all_tags |> List.map (fun item -> (item, (String.capitalize_ascii item))))
                           ~selected:filter
                           "w-48" %>
                     </form>

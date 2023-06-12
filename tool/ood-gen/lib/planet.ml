@@ -150,7 +150,6 @@ type t = {
   stable_record ~version:metadata ~modify:[ featured ]
     ~remove:[ slug; body_html; tags ],
     show { with_path = false }]
-(*  *)
 let of_metadata m =
   of_metadata m ~slug:(Utils.slugify m.title)
     ~modify_featured:(Option.value ~default:false)
@@ -160,7 +159,7 @@ let decode (path, (head, body)) =
   let body_html =
     Omd.to_html (Hilite.Md.transform (Omd.of_string (String.trim body)))
   in
-  let tags = [ List.nth (String.split_on_char '/' path) 1] in
+  let tags = [ List.nth (String.split_on_char '/' path) 1 ] in
   Result.map (of_metadata ~body_html ~tags) metadata
 
 let all () =

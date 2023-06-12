@@ -270,6 +270,7 @@ module Planet : sig
     tags : string list;
   }
 
+  val all_tags : string list
   val featured : t list
   val all : t list
   val get_by_slug : string -> t option
