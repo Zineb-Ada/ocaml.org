@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Martin Escardo
-tags:
-- andrej
 ---
 
 <p>A while ago, my former student <a href="https://cj-xu.github.io/">Chuangjie Xu</a> and I computed an integer using a <a href="https://ncatlab.org/nlab/show/Grothendieck+topos">sheaf topos</a>. For that purpose,</p>

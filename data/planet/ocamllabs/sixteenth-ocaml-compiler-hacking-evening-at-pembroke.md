@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>Happy New Year! Our first compiler hacking event of 2017 will be at Pembroke College.</p>

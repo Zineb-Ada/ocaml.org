@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Gabriel Radanne
-tags:
-- ocsigen
 ---
 
 <p>We are happy to announce the releases of</p>

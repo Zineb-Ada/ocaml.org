@@ -7,10 +7,6 @@ url: http://infocom2018.ieee-infocom.org/content/workshop-hotpost-hot-topics-per
 date: 2018-04-16T00:00:00-00:00
 preview_image:
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>Anil Madhavapeddy and Gemma Gordon presented our new operating system for

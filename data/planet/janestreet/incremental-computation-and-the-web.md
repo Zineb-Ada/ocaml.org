@@ -7,10 +7,6 @@ url: https://blog.janestreet.com/incrementality-and-the-web/
 date: 2016-01-30T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>I&rsquo;ve recently been thinking about the world of JavaScript and web applications.

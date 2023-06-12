@@ -5,10 +5,6 @@ url: https://hannes.robur.coop/Posts/EC
 date: 2021-04-23T13:33:06-00:00
 preview_image:
 featured:
-authors:
-- hannes
-tags:
-- hannes
 ---
 
 <h2>Introduction</h2>

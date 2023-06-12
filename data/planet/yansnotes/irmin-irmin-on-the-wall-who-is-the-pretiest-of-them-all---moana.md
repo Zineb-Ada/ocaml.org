@@ -8,8 +8,6 @@ preview_image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABSkAAAL9CAYAAADHB+O
 featured:
 authors:
 - Unknown
-tags:
-- yansnotes
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">

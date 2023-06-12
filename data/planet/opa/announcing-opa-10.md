@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 Today, just 365 days since the first open source release of Opa, we announce the release of Opa 1.0.<br/>

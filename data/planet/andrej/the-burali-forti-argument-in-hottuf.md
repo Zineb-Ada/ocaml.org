@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Martin Escardo
-tags:
-- andrej
 ---
 
 <p>This is joint work with <a href="https://www.uib.no/en/persons/Marcus.Aloysius.Bezem">Marc Bezem</a>, <a href="https://www.cse.chalmers.se/~coquand/">Thierry Coquand</a>, <a href="https://www.cse.chalmers.se/~peterd/">Peter Dybjer</a>.</p>

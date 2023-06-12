@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - examachine
-tags:
-- examachine
 ---
 
 <blockquote><p>examachine has 22 repositories available. Follow their code on GitHub.</p></blockquote>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - lpw25
-tags:
-- lpw25
 ---
 
 <div class="well well-small">

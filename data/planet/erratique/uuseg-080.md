@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>First release of Uuseg, Unicode text segmentation for OCaml.</p>

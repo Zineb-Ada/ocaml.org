@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Psellos
-tags:
-- psellos
 ---
 
 <div class="date">March 21, 2020</div>

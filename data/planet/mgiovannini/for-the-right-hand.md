@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - "Mat\xEDas Giovannini"
-tags:
-- mgiovannini
 ---
 
 Useful generic functions are usually the result of composing useful generic functions; the fact that these are easy to write is, however, not an excuse for not having them in a rich prelude. Given a total function for splitting a list at a given point:

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - bap
-tags:
-- bap
 ---
 
 <p>This post serves to give some guidance on obtaining the disassembly and CFG for

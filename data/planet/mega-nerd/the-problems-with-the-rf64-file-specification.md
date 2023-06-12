@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - mega-nerd
-tags:
-- mega-nerd
 ---
 
 

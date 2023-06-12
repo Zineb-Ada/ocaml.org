@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - "C\xE9dric Soulas"
-tags:
-- opa
 ---
 
 <div class="sectionbody">

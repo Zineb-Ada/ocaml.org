@@ -8,8 +8,6 @@ preview_image: https://repository-images.githubusercontent.com/6786166/88c78500-
 featured:
 authors:
 - inria
-tags:
-- inria
 ---
 
 

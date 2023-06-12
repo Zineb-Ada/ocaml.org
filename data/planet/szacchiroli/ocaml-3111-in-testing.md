@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - szacchiroli
-tags:
-- szacchiroli
 ---
 
 <h1>... and other Debian OCaml bits</h1>

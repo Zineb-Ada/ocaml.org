@@ -1,15 +1,12 @@
 ---
 title: One Web App = One Language
-description: When I started the Opa project five years ago, my goal was to clean up
-  the mess and build a clean technology for writing web applications. A...
+description:
 url: http://blog.opalang.org/2012/04/one-web-app-one-language.html
 date: 2012-04-18T16:32:00-00:00
 preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 <div class="sectionbody"><div class="paragraph">When I started the Opa project five years ago, my goal was to clean up the mess and build a clean technology for writing web applications.</div><div class="paragraph">At the time, Web 2.0 applications based on AJAX were increasingly popular and most technology stacks were growing in complexity, surpassing 5 technologies: A web server, a programming language for the server, another for the client, a database and at least one framework. Not counting an ORM layer, caching mechanism, etc., etc. There was room for improvement!</div><div class="paragraph">The design was based on two principles:</div><div class="olist arabic"><ol class="arabic"><li>There should be a single, unique language for writing web applications.</li>

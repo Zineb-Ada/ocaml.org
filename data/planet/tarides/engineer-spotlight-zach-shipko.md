@@ -6,10 +6,6 @@ url: https://tarides.com/blog/2023-01-05-engineer-spotlight-zach-shipko
 date: 2023-01-05T00:00:00-00:00
 preview_image: https://tarides.com/static/05e1ac13a4bcc3da2909310f1f777822/0132d/zach_image.jpg
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>Tarides engineer Zach Shipko answers a few questions about why he decided to learn OCaml and why he's particularly excited about the OCaml 5 release. In celebration of OCaml 5, we've interviewed several engineers about their personal experience with the language and what features they enjoy. It's a great way to get some unique insight into the language from someone who works with it on a daily basis.</p>

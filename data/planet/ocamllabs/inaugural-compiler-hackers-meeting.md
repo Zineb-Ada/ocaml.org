@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p><img src="http://ocamllabs.io/compiler-hacking/imgs/2013-09-17.jpg" alt="Compiler Hacking"/></p>

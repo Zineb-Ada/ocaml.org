@@ -4,12 +4,10 @@ description: When we released Opa 1.0 in June this year, we made a major move by
   Node.js as the main backend for Opa.  Since then, as we told ...
 url: http://blog.opalang.org/2012/09/the-opa-framework-hits-major-milestone.html
 date: 2012-09-10T14:31:00-00:00
-preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDTwex46QjNSU7t42Dm0r4VSCDCnGR9ciRh3dZl5oGTKD2xjjoaqUP9VGttvQq2zVoQa0NAfgp2X2tBAy3C81WZZE5QpXMFvOZi0r22xj42LXP7wEE7BPRZ7=w1200-h630-p-k-no-nu
+preview_image: https://lh3.googleusercontent.com/blogger_img_proxy/AByxGDTIZDcBUbrZqgXEk1FtUkvcFeN0kuHfi_uJq7lAqMP5Fn15EUOEDZZhJ3YENSVgGKlguA7JoszYwSQWe26SWE2yVUuvRA58xAHwUGheOl-VfUAhpJY-98Qh=w1200-h630-p-k-no-nu
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 When we released Opa 1.0 in June this year, we made a major move by supporting Node.js as the main backend for Opa.<br/>

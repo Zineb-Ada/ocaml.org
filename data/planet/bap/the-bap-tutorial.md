@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - bap
-tags:
-- bap
 ---
 
 <p>It was a lasting issue that BAP didn&rsquo;t have a tutorial. We have an

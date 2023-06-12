@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>If you're within travelling distance of Cambridge and interested in

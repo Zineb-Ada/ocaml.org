@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Vincent Balat
-tags:
-- ocsigen
 ---
 
 <p>Following last week release,

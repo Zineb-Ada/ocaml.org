@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
-tags:
-- rgrinberg
 ---
 
 <p>One itch that I usually need to scratch is setting up quick and dirty

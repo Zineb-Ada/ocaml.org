@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>First release of Cmdliner, an OCaml module for the declarative definition of command line interfaces.</p>

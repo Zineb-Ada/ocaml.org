@@ -7,8 +7,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
-tags:
-- rjones
 ---
 
 <p>Or at least he now has his own <a href="http://git.annexia.org/?p=xavierbot.git%3Ba=summary">git repository</a>.</p>

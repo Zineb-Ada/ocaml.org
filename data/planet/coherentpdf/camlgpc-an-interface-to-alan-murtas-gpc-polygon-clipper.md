@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - coherentpdf
-tags:
-- coherentpdf
 ---
 
 <p>Some of our coherence 2D graphics renderer examples used to rely on being able to robustly intersect and union polygons.</p>

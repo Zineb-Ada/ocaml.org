@@ -9,8 +9,6 @@ preview_image: http://libguestfs.org/virt-builder.svg
 featured:
 authors:
 - rjones
-tags:
-- rjones
 ---
 
 <p><img src="https://i0.wp.com/libguestfs.org/virt-builder.svg" width="250" style="float:right;"/></p>

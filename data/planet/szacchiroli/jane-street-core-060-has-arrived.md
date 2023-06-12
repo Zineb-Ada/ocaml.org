@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - szacchiroli
-tags:
-- szacchiroli
 ---
 
 <h1>Debian &quot;Core&quot; 0.6.0 packages ready</h1>

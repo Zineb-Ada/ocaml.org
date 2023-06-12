@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - reynard
-tags:
-- reynard
 ---
 
 <p>Last month I was very lucky to attend the first <a href="https://github.com/maintainerati/events/tree/master/wontfix_cabal">Wontfix_Cabal</a>, organised by <a href="https://maintainerati.org/">Maintainerati</a> and hosted at GitHub HQ in San Francisco.</p>

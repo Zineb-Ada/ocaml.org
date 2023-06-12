@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>Fixes a bug in the weak heap implementation. Thanks to <a href="http://jaked.org">Jake Donham</a> for reporting and discussing the fix.</p>

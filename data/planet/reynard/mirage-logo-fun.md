@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - reynard
-tags:
-- reynard
 ---
 
 <p>With the new MirageOS 3.0 release on the horizon I looked at some ideas for a new logo. It will be a shame to lose our well-loved llama but it&rsquo;s also a great time for a new shiny logo!</p>

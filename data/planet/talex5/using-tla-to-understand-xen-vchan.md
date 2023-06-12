@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Thomas Leonard
-tags:
-- talex5
 ---
 
 <p>The vchan protocol is used to stream data between virtual machines on a Xen host without needing any locks.

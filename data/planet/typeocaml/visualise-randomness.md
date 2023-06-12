@@ -9,8 +9,6 @@ preview_image:
 featured:
 authors:
 - typeocaml
-tags:
-- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2015/11/visual_random-1.jpg#hero" alt="heor"/></p>

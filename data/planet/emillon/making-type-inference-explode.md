@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - emillon
-tags:
-- emillon
 ---
 
 <p>Hindley-Milner type systems are in a sweet spot in that they are both expressive

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>Our next OCaml Compiler Hacking event will be on Thursday 7th December in The Thomas Gray Room at Pembroke College, Cambridge.</p>

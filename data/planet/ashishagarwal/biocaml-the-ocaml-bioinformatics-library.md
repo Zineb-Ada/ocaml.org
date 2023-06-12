@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - ashishagarwal
-tags:
-- ashishagarwal
 ---
 
 <p><strong>Abstract</strong><br/>

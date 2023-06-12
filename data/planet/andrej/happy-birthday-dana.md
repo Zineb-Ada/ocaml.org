@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Andrej Bauer
-tags:
-- andrej
 ---
 
 <p>Today <a href="https://www.cmu.edu/math/people/faculty/scott.html">Dana Scott</a> is celebrating the 90th birthday today. <strong>Happy birthday, Dana!</strong> I am forever grateful for your kindness and the knowledge that I received from you. I hope to pass at least a part of it onto my students.</p>

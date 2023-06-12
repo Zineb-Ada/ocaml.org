@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ""
-tags:
-- rgrinberg
 ---
 
 <p>Now that 1.0.0 has been released, the team took a break from dune affairs.

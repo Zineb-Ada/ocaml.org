@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
-tags:
-- rgrinberg
 ---
 
 <p>Type safe routing means different things to different people. So let&rsquo;s

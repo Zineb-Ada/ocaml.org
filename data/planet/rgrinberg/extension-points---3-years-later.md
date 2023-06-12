@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ""
-tags:
-- rgrinberg
 ---
 
 <p>UPDATE: 2017-12-05 <a href="https://github.com/smondet" class="reference external">smondet</a> pointed out that the extension doesn&rsquo;t work quite as

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - xmpp
-tags:
-- xmpp
 ---
 
 <p>Hi,</p>

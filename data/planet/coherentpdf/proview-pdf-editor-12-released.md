@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - coherentpdf
-tags:
-- coherentpdf
 ---
 
 <p>The new version of the <a href="http://www.coherentpdf.com/proview.html">Proview PDF Editor</a> for Mac OS X is now available for download. The update is free for existing users &ndash; your license key will still work &ndash; just download and install from the website.</p>

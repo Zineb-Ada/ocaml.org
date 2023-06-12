@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 <h2>The problem</h2><br/>

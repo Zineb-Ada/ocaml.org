@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - szacchiroli
-tags:
-- szacchiroli
 ---
 
 <h1>Eclectic paper: dh-ocaml</h1>

@@ -8,8 +8,6 @@ preview_image: http://4.bp.blogspot.com/_-BRxxZyoKFE/S-RS60NO3DI/AAAAAAAAAOw/KkX
 featured:
 authors:
 - ambassadortothecomputers
-tags:
-- ambassadortothecomputers
 ---
 
  

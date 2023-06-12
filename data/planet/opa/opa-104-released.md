@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 <p>Short news: Opa 1.0.4 has just been released.</p><pre>Tokyo:opa henri$ wc -l hack1.opa 

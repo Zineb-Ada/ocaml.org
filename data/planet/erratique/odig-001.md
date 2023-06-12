@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>First release of Odig. If you can't keep track of the documentation of the OCaml packages you use, just odig them locally.</p>

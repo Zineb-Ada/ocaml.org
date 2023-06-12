@@ -7,8 +7,6 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
-tags:
-- wisdomandwonder
 ---
 
 Via Oleg: The library delimcc directly implementing delimited continuations on OCaml now supports native code (ocamlopt) on selected platforms. http://okmij.org/ftp/continuations/caml-shift.tar.gz The library delimcc implements shift/reset, prompt/control, shift0, control0 delimited continuation operators with multiple, arbitrarily typed prompts. The delimcc implementation is direct: it copies only the relevant fragment of the OCaml stack. The implementation is fully &hellip; <a href="https://www.wisdomandwonder.com/link/5041/delimited-continuations-on-ocaml" class="more-link">Continue reading<span class="screen-reader-text"> &quot;Delimited continuations on OCaml&quot;</span></a>

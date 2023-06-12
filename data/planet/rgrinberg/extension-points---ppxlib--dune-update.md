@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ""
-tags:
-- rgrinberg
 ---
 
 <p>In a <a href="http://rgrinberg.com/posts/extension-points-3-years-later/#extension-points" class="reference internal"><span class="std std-ref">previous post</span></a>, I&rsquo;ve described what are the latest

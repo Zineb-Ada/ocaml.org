@@ -1,18 +1,13 @@
 ---
 title: Station F
-description: "Avec plus de 30 programmes start-up, 35 administrations publiques, 150
-  fonds d'investissements et 600 \xE9v\xE9nements par an, STATION F offre les meilleures
-  ressources pour donner le pouvoir \xE0 la prochaine g\xE9n\xE9ration d'entrepreneurs.
-  Les start-up b\xE9n\xE9ficient de la communaut\xE9 et peuvent rencontrer d'autres
-  entrepreneurs."
+description: With more than 30 startup programs, 35 public administrations, 150 VC
+  funds, 4 mentorship offices and 600 events per year, STATION F offers all the best
+  resources and knowledge to empower the next generation of entrepreneurs. Startups
+  will benefit from the community and meet other great entrepreneurs.
 url: https://stationf.co/
 date: 2018-07-17T00:00:00-00:00
 preview_image: https://stationf.co/img/cards/og_image.png
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>We are thrilled to have been accepted into the Founders Progam's 3rd

@@ -9,8 +9,6 @@ preview_image:
 featured:
 authors:
 - "Mat\xEDas Giovannini"
-tags:
-- mgiovannini
 ---
 
 While proving that every monad is an applicative functor, I extracted the following derivation as a lemma:

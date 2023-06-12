@@ -9,7 +9,6 @@ type metadata = {
   preview_image : string option;
   featured : bool option;
   authors : string list option;
-  tags : string list;
 }
 [@@deriving yaml]
 
@@ -86,7 +85,6 @@ let scrape_post ~source_name (post : River.post) =
             description;
             featured = None;
             authors = Some [ author ];
-            tags = [ source_name ];
           }
         in
         let s = Format.asprintf "%a\n%s\n" pp_meta metadata content in
@@ -150,19 +148,20 @@ type t = {
 }
 [@@deriving
   stable_record ~version:metadata ~modify:[ featured ]
-    ~remove:[ slug; body_html ],
+    ~remove:[ slug; body_html; tags ],
     show { with_path = false }]
-
+(*  *)
 let of_metadata m =
   of_metadata m ~slug:(Utils.slugify m.title)
     ~modify_featured:(Option.value ~default:false)
 
-let decode (_, (head, body)) =
+let decode (path, (head, body)) =
   let metadata = metadata_of_yaml head in
   let body_html =
     Omd.to_html (Hilite.Md.transform (Omd.of_string (String.trim body)))
   in
-  Result.map (of_metadata ~body_html) metadata
+  let tags = [ List.nth (String.split_on_char '/' path) 1] in
+  Result.map (of_metadata ~body_html ~tags) metadata
 
 let all () =
   Utils.map_files decode "planet/*/*.md"

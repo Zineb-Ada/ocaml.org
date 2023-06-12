@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>It's time for the fifth Cambridge OCaml compiler-hacking session!  We'll be meeting in the <a href="http://www.cl.cam.ac.uk/">Computer Lab</a> again next Tuesday evening.</p>

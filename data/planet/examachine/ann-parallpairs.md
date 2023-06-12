@@ -9,8 +9,6 @@ preview_image: https://examachine.net/blog/wp-content/uploads/2017/02/Screen-Sho
 featured:
 authors:
 - examachine
-tags:
-- examachine
 ---
 
 <h1>Parallel all-pairs similarity search algorithms in OCaml</h1>

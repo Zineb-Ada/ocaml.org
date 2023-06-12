@@ -9,8 +9,6 @@ preview_image:
 featured:
 authors:
 - typeocaml
-tags:
-- typeocaml
 ---
 
 <p><img src="http://typeocaml.com/content/images/2014/11/async2.jpg#hero" alt="async"/></p>

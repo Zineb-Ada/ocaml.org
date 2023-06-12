@@ -7,10 +7,6 @@ url: https://blog.janestreet.com/how-to-design-a-tree-diffing-algorithm/
 date: 2017-08-25T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>For those of you interested in what

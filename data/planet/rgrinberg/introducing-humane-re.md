@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
-tags:
-- rgrinberg
 ---
 
 <p>OCaml is my favorite language, but one area where it (its tools rather)

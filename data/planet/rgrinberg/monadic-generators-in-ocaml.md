@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ""
-tags:
-- rgrinberg
 ---
 
 <p>Generators are one of those features that have been heavily popularized by

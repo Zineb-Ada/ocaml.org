@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - coherentpdf
-tags:
-- coherentpdf
 ---
 
 <p>Our new book about PDF has just been published. You can find it at <a href="http://shop.oreilly.com/product/0636920021483.do" title="PDF Explained" target="_blank">O&rsquo;Reilly&rsquo;s own site</a> in printed and ebook form, or from Amazon and other booksellers.</p>

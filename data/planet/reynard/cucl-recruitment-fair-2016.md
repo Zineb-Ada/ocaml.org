@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - reynard
-tags:
-- reynard
 ---
 
 <p>Cambridge Computer Lab runs a <a href="https://www.cl.cam.ac.uk/supporters-club/members.html">Supporters Club</a> for a <a href="https://www.cl.cam.ac.uk/supporters-club/members.html">group of companies</a>, ranging from the very small to the large, which actively support teaching or research in the Computer Laboratory.</p>

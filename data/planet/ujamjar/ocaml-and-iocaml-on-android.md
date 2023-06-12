@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ujamjar
-tags:
-- ujamjar
 ---
 
 <p>Recently I was looking for an Ocaml solution for the Nexus 7. There are a 

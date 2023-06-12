@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/converting-a-code-base-from-camlp4-to-ppx/
 date: 2015-07-08T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>As with many projects in the OCaml world, at Jane Street we have been working on

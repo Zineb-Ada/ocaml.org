@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - "Mat\xEDas Giovannini"
-tags:
-- mgiovannini
 ---
 
 This is for the record, since the derivations took me a while and I'd rather not lose them.

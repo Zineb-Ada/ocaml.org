@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - Adam Koprowski
-tags:
-- opa
 ---
 
 <div class="sectionbody">

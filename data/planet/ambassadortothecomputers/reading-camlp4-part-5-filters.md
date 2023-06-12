@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - ambassadortothecomputers
-tags:
-- ambassadortothecomputers
 ---
 
 <p>Hey, long time no see!</p> 

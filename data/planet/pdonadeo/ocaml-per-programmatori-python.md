@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - pdonadeo
-tags:
-- pdonadeo
 ---
 
 <div><p class="noindent">Sorry for English speaking people, but this post makes sense only for Italians, so it's in Italian :-)</p>

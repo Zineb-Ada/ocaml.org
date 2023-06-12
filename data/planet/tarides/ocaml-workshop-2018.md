@@ -11,10 +11,6 @@ url: https://icfp18.sigplan.org/track/ocaml-2018-papers#program
 date: 2018-09-27T00:00:00-00:00
 preview_image: https://icfp18.sigplan.org/getImage/carousel/skyline.jpg?1488894339000
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>The OCaml Users and Developers Workshop brings together industrial

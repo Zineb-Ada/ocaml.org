@@ -7,10 +7,6 @@ url: https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/
 date: 2016-06-21T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>Earlier this year, we created

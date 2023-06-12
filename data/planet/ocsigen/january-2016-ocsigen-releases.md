@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - The Ocsigen team
-tags:
-- ocsigen
 ---
 
 <p>We are excited to announce the releases of</p>

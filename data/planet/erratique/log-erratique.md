@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>Opening a <a href="https://erratique.ch/log">log</a> for publishing erratic snapshots of ongoing work.</p>

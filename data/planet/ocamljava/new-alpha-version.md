@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Xavier Clerc
-tags:
-- ocamljava
 ---
 
 <p>A new alpha version has been released, fixing several blocking / annoying bugs.</p>

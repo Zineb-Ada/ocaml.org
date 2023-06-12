@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - odns
-tags:
-- odns
 ---
 
 <p>So here they are, <a href="http://download.tuxfamily.org/odns/odns-0.3.tar.gz">the brand new ODNS library and the ring tool</a>. Below are the main changes.</p>

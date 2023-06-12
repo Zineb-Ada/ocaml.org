@@ -5,10 +5,6 @@ url: https://blog.janestreet.com/why-ocaml/
 date: 2016-01-25T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <div class="video-container">

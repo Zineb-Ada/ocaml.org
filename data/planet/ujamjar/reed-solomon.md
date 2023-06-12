@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ujamjar
-tags:
-- ujamjar
 ---
 
 <p>A Reed-Solomon encoder and decoder library written in OCaml.</p>

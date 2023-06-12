@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>It seems the Topkg rewrite went unannounced on this feed. If you are in need of a no-nonsense release workflow to package and publish your packages on OPAM, simply topkg them.</p>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Pierre Alain
-tags:
-- mirage
 ---
 
 

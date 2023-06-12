@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - bap
-tags:
-- bap
 ---
 
 <p>This post explores a portion of the BAP API that may be useful when interacting

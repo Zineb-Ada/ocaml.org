@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
-tags:
-- kcsrk
 ---
 
 <p>Over the past few weeks, at <a href="http://ocamllabs.io/">OCaml Labs</a>, we&rsquo;ve deployed

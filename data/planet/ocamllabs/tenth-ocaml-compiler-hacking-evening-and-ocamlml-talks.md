@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>We'll be meeting in the Computer Lab next Friday (28th August 2015) for another evening of compiler hacking.  All welcome!</p>

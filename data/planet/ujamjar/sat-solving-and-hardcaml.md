@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ujamjar
-tags:
-- ujamjar
 ---
 
 <p>Combining a SAT solver with <a href="https://github.com/ujamjar/hardcaml">HardCaml</a> to prove 

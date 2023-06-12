@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - The Ocsigen Team
-tags:
-- ocsigen
 ---
 
 <p>The <a href="https://www.ocsigen.org">Ocsigen</a> project finally has a blog. We are planning to

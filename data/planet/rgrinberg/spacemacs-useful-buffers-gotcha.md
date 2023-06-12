@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
-tags:
-- rgrinberg
 ---
 
 <p>I&rsquo;ve ran into a little spacemacs annoyance that took me a while to resolve, and

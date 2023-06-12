@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Rudi Grinberg
-tags:
-- rgrinberg
 ---
 
 <p>Creating truly static binaries for Linux like golang is a capability that is

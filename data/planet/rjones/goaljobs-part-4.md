@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
-tags:
-- rjones
 ---
 
 <p>In <a href="https://rwmj.wordpress.com/2013/09/20/goaljobs-part-3/">part 3</a> I described how to write targets which can access network resources, and how to use memoization to make them run fast.  In this (last) part of the series, I&rsquo;ll describe the final feature of goaljobs &mdash; periodic jobs.</p>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Thomas Leonard
-tags:
-- talex5
 ---
 
 <p>&quot;Is this software safe?&quot; is a question software engineers should be able to answer,

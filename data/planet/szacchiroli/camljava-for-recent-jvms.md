@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - szacchiroli
-tags:
-- szacchiroli
 ---
 
 <h1>resurrecting CamlJava (testers welcome)</h1>

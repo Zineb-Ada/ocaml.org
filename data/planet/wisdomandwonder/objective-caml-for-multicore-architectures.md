@@ -7,8 +7,6 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
-tags:
-- wisdomandwonder
 ---
 
 Efforts being made on one of the biggest criticisms of OCaml. (via Caml-list)

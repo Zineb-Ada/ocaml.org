@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - bap
-tags:
-- bap
 ---
 
 <p>On this week we started to work on the PowerPC backend. We are

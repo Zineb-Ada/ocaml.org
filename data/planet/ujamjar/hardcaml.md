@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ujamjar
-tags:
-- ujamjar
 ---
 
 <p>An opensource domain specific language embedded in OCaml for designing and testing 

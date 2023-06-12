@@ -9,8 +9,6 @@ preview_image:
 featured:
 authors:
 - drup
-tags:
-- drup
 ---
 
 

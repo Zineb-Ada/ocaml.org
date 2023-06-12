@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Andrej Bauer
-tags:
-- andrej
 ---
 
 <p>Within a month two of my students defended their theses: <a href="https://anjapetkovic.com">Dr. Anja Petkovi&#263; Komel</a> just before Christmas, and <a href="https://haselwarter.org">Dr. Philipp Haselwarter</a> just yesterday. I am very proud of them. Congratulations!</p>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - 0branch
-tags:
-- 0branch
 ---
 
 <div>

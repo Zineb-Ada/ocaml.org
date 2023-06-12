@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ocamllabs
-tags:
-- ocamllabs
 ---
 
 <p>(Update (2014-05-28): Added notes on <a href="http://ocamllabs.io/compiler-hacking/rss.xml#delimcc">delimcc</a> and <a href="http://ocamllabs.io/compiler-hacking/rss.xml#catch-me">Catch me if you can</a> to the <em>Discoveries</em> section.)</p>

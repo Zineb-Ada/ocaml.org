@@ -8,8 +8,6 @@ preview_image: //1.bp.blogspot.com/-DqbG0LlxpXE/UxWbAtjz7wI/AAAAAAAAAD0/UWDHWQ5Z
 featured:
 authors:
 - Tony Tavener
-tags:
-- cburnout
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">

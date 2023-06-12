@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - KC Sivaramakrishnan
-tags:
-- kcsrk
 ---
 
 <p>In the <a href="http://kcsrk.info/ocaml/profiling/2015/09/23/bytecode-allocation-profiler/">last

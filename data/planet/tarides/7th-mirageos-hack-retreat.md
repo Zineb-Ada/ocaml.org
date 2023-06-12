@@ -6,10 +6,6 @@ url: https://tarides.com/blog/2019-05-06-7th-mirageos-hack-retreat
 date: 2019-05-06T00:00:00-00:00
 preview_image: https://tarides.com/static/c18127602edbf62c47c7d5df165b2d8b/0132d/moroccan_plates.jpg
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>Let's talk sun, mint tea and OCaml: Yes, you got it, the <a href="http://retreat.mirage.io">MirageOS biennial retreat</a> at Marrakesh!</p>

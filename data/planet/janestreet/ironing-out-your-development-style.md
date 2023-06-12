@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/ironing-out-your-development-style/
 date: 2017-08-24T00:00:00-00:00
 preview_image: https://blog.janestreet.com/ironing-out-your-development-style/story.jpg
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>People seem to enjoy talking about programming methodologies. They

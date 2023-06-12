@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - rjones
-tags:
-- rjones
 ---
 
 <p><i>For more half-baked ideas, see <a href="https://rwmj.wordpress.com/tag/ideas/">the ideas tag</a>.</i></p>

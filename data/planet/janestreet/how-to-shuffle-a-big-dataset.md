@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/how-to-shuffle-a-big-dataset/
 date: 2018-09-26T00:00:00-00:00
 preview_image: https://blog.janestreet.com/how-to-shuffle-a-big-dataset/shuffle_zoom.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>At Jane Street, we often work with data that has a very low

@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - hongboz
-tags:
-- hongboz
 ---
 
 <p>There are some interesting discussions in the wg-camlp4 mailing list, I wrote a long mail yesterday, I cleaned it a bit, pasted it here&nbsp;</p>

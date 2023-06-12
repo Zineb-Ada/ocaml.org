@@ -8,8 +8,6 @@ preview_image: https://i0.wp.com/www.wisdomandwonder.com/wp-content/uploads/2019
 featured:
 authors:
 - wisdomandwonder
-tags:
-- wisdomandwonder
 ---
 
 Here is how to get Unison running on the iPhone. Nice. Via Sylvain via LinkedIn-Ocaml Developers.

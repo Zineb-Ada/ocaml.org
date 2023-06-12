@@ -9,8 +9,6 @@ preview_image: https://s0.wp.com/i/blank.jpg
 featured:
 authors:
 - examachine
-tags:
-- examachine
 ---
 
 <p>This post is in reference to Celestial Intellect Cybernetics&rsquo;s AGI (Artificial General Intelligence) Platform called Examachine. Examachine&rsquo;s core is a &ldquo;parallel AGI kernel&rdquo; which presents a generic programming API implementing parallel incremental general-purpose machine learning algorithms for heterogeneous supercomputers, and &hellip;</p>

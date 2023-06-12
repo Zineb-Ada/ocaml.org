@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - szacchiroli
-tags:
-- szacchiroli
 ---
 
 <h1>ocaml-autoconf Debian packaged</h1>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - smondet
-tags:
-- smondet
 ---
 
 Quick OCaml hack to generate some old-school XML.

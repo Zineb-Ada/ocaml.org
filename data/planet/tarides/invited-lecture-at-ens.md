@@ -5,10 +5,6 @@ url: http://www.di.ens.fr/~pouzet/cours/systeme/
 date: 2018-05-17T00:00:00-00:00
 preview_image:
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>Thomas Gazagnaire gave an invited lecture at

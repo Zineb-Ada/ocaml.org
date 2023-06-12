@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - coherentpdf
-tags:
-- coherentpdf
 ---
 
 <p>The latest version of our command line tools for processing PDF files has just been released.</p>

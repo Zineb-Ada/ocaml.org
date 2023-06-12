@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>First release of Uuidm, an OCaml module for universally unique identifiers (<abbr>UUID</abbr>s).</p>

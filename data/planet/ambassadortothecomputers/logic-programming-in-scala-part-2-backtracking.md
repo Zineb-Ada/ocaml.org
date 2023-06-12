@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - ambassadortothecomputers
-tags:
-- ambassadortothecomputers
 ---
 
 <p>In the <a href="http://ambassadortothecomputers.blogspot.com/2011/04/logic-programming-in-scala-part-1.html">previous post</a> we saw how to write computations in a logic monad, where a &ldquo;value&rdquo; is a choice among alternatives, and operating on a value means operating on all the alternatives.</p> 

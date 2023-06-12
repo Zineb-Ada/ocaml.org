@@ -5,10 +5,6 @@ url: https://hannes.robur.coop/Posts/ReproducibleOPAM
 date: 2019-12-16T18:29:30-00:00
 preview_image:
 featured:
-authors:
-- hannes
-tags:
-- hannes
 ---
 
 <h2>Reproducible builds summit</h2>

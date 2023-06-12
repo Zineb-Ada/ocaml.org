@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Thomas Gazagnaire
-tags:
-- mirage
 ---
 
 

@@ -6,10 +6,6 @@ url: https://tarides.com/blog/2021-03-04-florence-and-beyond-the-future-of-tezos
 date: 2021-03-04T00:00:00-00:00
 preview_image: https://tarides.com/static/d81c504dbb5172d29c2aa38512f1dfe3/7d5a2/florence.jpg
 featured:
-authors:
-- tarides
-tags:
-- tarides
 ---
 
 <p>In collaboration with Nomadic Labs, Marigold and DaiLambda, we're happy to

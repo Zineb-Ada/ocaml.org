@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - orbitz
-tags:
-- orbitz
 ---
 
 <p><i>

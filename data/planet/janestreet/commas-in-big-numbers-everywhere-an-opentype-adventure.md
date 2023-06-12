@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/commas-in-big-numbers-everywhere/
 date: 2019-10-14T00:00:00-00:00
 preview_image: https://blog.janestreet.com/commas-in-big-numbers-everywhere/numderline_header2.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>My job involves a lot of staring at large numbers, mostly latencies in

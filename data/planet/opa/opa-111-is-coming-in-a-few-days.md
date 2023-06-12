@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 This is a short update to tell that the Opa 1.1.1 release is finally around the corner as we are building packages. Of course, if you're impatient, you can build from <a href="https://github.com/MLstate/opalang/commits/master">sources</a>.&nbsp;The release brings back the compatibility with the latest releases of NodeJS, now recommending the latest 0.10.3 version.<br/>

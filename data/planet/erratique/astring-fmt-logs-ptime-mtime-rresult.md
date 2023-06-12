@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 A few new releases that went unannounced on this feed. Find about them on the <a href="https://erratique.ch/software">software page</a>.

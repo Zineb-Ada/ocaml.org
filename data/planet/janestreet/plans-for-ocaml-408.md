@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/plans-for-ocaml-408/
 date: 2018-06-29T00:00:00-00:00
 preview_image: https://blog.janestreet.com/plans-for-ocaml-408/ocaml_release.jpg
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>With the external release of OCaml 4.07.0 imminent, we in Jane Street&rsquo;s

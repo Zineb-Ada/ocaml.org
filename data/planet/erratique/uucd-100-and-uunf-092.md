@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - "Daniel B\xFCnzli"
-tags:
-- erratique
 ---
 
 <p>Release of Uucd and Uunf to support Unicode 6.3.0. Consult the individual release notes for details.</p>

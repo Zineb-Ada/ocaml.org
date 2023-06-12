@@ -5,10 +5,6 @@ url: https://blog.janestreet.com/deep-learning-the-hardest-go-problem-in-the-wor
 date: 2019-12-06T00:00:00-00:00
 preview_image: https://blog.janestreet.com/deep-learning-the-hardest-go-problem-in-the-world/goproblem.png
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <h2>Updates and a New Run</h2>

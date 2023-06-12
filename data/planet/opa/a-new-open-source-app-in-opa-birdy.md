@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - HB
-tags:
-- opa
 ---
 
 As many of you know, the main source to learn Opa is the O'Reilly book: <a href="http://shop.oreilly.com/product/0636920025436.do">Opa, Up and Running</a>*.<br/>

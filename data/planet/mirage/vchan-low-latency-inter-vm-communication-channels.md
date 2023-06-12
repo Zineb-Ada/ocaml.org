@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Jon Ludlam
-tags:
-- mirage
 ---
 
 

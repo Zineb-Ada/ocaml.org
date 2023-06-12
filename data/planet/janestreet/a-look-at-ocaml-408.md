@@ -7,10 +7,6 @@ url: https://blog.janestreet.com/a-look-at-ocaml-4.08/
 date: 2019-07-12T00:00:00-00:00
 preview_image: https://blog.janestreet.com/a-look-at-ocaml-4.08/ocaml_release-2019.jpg
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>Now that OCaml 4.08 has been released, let&rsquo;s have a look at what was

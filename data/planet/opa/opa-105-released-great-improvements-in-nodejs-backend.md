@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - "C\xE9dric Soulas"
-tags:
-- opa
 ---
 
 Last month we introduced the Node.js backend for Opa. We received lots of feedback, thank you all!&nbsp;We worked hard to take everything into consideration: the new Opa 1.0.5 release is a big one which comes with a lot of bug fixes, improvements and new features.<br/>

@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - ujamjar
-tags:
-- ujamjar
 ---
 
 <p>An interactive demo of Reed-Solomon error correction coding.  The demo shows the workings 

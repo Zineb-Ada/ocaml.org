@@ -6,10 +6,6 @@ url: https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/
 date: 2020-02-03T00:00:00-00:00
 preview_image: https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/data-taps.jpg
 featured:
-authors:
-- janestreet
-tags:
-- janestreet
 ---
 
 <p>When we set up a schedule on a computer, such as a list of commands to

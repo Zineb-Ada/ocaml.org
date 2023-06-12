@@ -5,10 +5,6 @@ url: https://hannes.robur.coop/Posts/OpamMirror
 date: 2022-09-29T13:04:14-00:00
 preview_image:
 featured:
-authors:
-- hannes
-tags:
-- hannes
 ---
 
 <p>We at <a href="https://robur.coop">robur</a> developed <a href="https://git.robur.io/robur/opam-mirror">opam-mirror</a> in the last month and run a public opam mirror at https://opam.robur.coop (updated hourly).</p>

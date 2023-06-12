@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - Martin Lucina
-tags:
-- mirage
 ---
 
 

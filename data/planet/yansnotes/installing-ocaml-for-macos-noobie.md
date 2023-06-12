@@ -8,8 +8,6 @@ preview_image:
 featured:
 authors:
 - Unknown
-tags:
-- yansnotes
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">

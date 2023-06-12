@@ -7,8 +7,6 @@ preview_image:
 featured:
 authors:
 - bap
-tags:
-- bap
 ---
 
 <h1>Defining instructions semantics using Primus Lisp (Tutorial)</h1>
