@@ -172,17 +172,26 @@ let paginate ~req ~n items =
   (page, number_of_pages, current_items)
 
 let blog req =
-  let filter =
-    Dream.query req "f" |> Option.value ~default:"all"
+  let filter = Dream.query req "f" |> Option.value ~default:"all" in
+  let filtred_items_by_tags =
+    if filter = "all" then Data.Planet.all
+    else
+      List.filter
+        (fun item -> List.mem filter item.Data.Planet.tags)
+        Data.Planet.all
   in
-  let filtred_items_by_tags = List.filter (fun item -> List.mem filter item.Data.Planet.tags) Data.Planet.all
-  in
+  Logs.info (fun fby ->
+      fby "length list fbt : %d" (List.length filtred_items_by_tags));
   let page, number_of_pages, current_items =
     paginate ~req ~n:10
-      (List.filter (fun (x : Data.Planet.t) -> not x.featured) filtred_items_by_tags)
+      (List.filter
+         (fun (x : Data.Planet.t) -> not x.featured)
+         filtred_items_by_tags)
   in
   let featured = Data.Planet.featured |> List.take 3 in
+  Logs.info (fun x -> x "featured length list %d" (List.length featured));
   let news = Data.News.all |> List.take 20 in
+  Logs.info (fun m -> m "filter : %s page : %d/%d" filter page number_of_pages);
   Dream.html
     (Ocamlorg_frontend.blog ~featured ~planet:current_items ~planet_page:page
        ~planet_pages_number:number_of_pages ~news ~filter)
