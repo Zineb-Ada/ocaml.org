@@ -150,6 +150,7 @@ type t = {
   stable_record ~version:metadata ~modify:[ featured ]
     ~remove:[ slug; body_html; tags ],
     show { with_path = false }]
+
 let of_metadata m =
   of_metadata m ~slug:(Utils.slugify m.title)
     ~modify_featured:(Option.value ~default:false)
