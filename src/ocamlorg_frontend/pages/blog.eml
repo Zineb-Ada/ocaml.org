@@ -67,7 +67,7 @@ Layout.render
                             <% ); %>
                         </div>
                         <% ); %>
-                <%s! Pagination.render ~total_page_count:planet_pages_number ~page_number:planet_page ~base_url:Url.blog %>
+                <%s! Pagination.render ~total_page_count:planet_pages_number ~page_number:planet_page ~base_url:Url.blog ~filter %>
 
             <div class="lg:pl-16 space-y-12">
                 <h2 class="text-lg mt-0 font-semibold border-b border-current text-primary-600 pb-3">News</h2>
