@@ -1,5 +1,5 @@
 module Source = struct
-  type t = { id : string option; name : string; url : string }
+  type t = { id : string option; name : string; url : string; tag : string }
   [@@deriving yaml, show { with_path = false }]
 
   type sources = t list [@@deriving yaml]
@@ -37,7 +37,7 @@ type t = {
 }
 [@@deriving
   stable_record ~version:metadata ~modify:[ featured; source ]
-    ~remove:[ slug; body_html ],
+    ~remove:[ slug; body_html],
     show { with_path = false }]
 
 let all_sources = Source.all ()
@@ -65,6 +65,7 @@ let decode (fpath, (head, body)) =
                 id = Some "ocamlorg";
                 name = "OCaml.org Blog";
                 url = "https://ocaml.org/blog";
+                tag = "all";
               }
             else failwith ("No source found for: " ^ fpath))
     | _ ->
@@ -92,7 +93,7 @@ let template () =
   Format.asprintf
     {|
 module Source = struct
-  type t = { id : string option; name : string; url : string }
+  type t = { id : string option; name : string; url : string; tag : string }
 end
 
 type t =
@@ -105,7 +106,7 @@ type t =
   ; date : string
   ; preview_image : string option
   ; featured : bool
-  ; body_html : string
+  ; body_html : string;
   }
   
 let all = %a
@@ -231,7 +232,7 @@ module Scraper = struct
   let scrape () =
     let sources = Source.all () in
     sources
-    |> List.map (fun ({ id; url; name } : Source.t) : (string * River.source) ->
+    |> List.map (fun ({ id; url; name; _ } : Source.t) : (string * River.source) ->
            (Option.get id, { name; url }))
     |> List.filter_map fetch_feed |> List.iter scrape_feed
 end
